@@ -548,11 +548,3 @@ Read the [documentation](https://canvasly.pro/overview.html) or [contact support
 
 = 0.12.74 =
 Menu Anchor now shows its jump target on the canvas and supports a scroll offset for sticky headers.
-
-wordpress builder plugin github"
-"open source elementor alternative github"
-"canvasly wordpress plugin source code"
-#wordpress-plugin 
-#page-builder
-#wordpress-builder
-#gutenberg

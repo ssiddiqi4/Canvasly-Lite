@@ -1,0 +1,7 @@
+/*
+Theme Name: Canvasly Safe
+Description: Minimal theme used while Canvasly Safe Mode is active. Do not activate from Appearance.
+Version: 1.0
+Text Domain: canvasly-lite
+*/
+body{margin:0;font-family:system-ui,sans-serif}

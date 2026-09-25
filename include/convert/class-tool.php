@@ -26,6 +26,32 @@ class Tool {
 	}
 
 	/**
+	 * Small inline badge marking a candidate as Elementor-sourced (or raw
+	 * third-party data without a recognizable Elementor signature).
+	 *
+	 * @param string $size 'sm' for inline row badges, 'lg' for the heading icon.
+	 * @param bool   $is_elementor
+	 * @return string Escaped HTML.
+	 */
+	public static function elementor_badge( $size = 'sm', $is_elementor = true ) {
+		$lg      = ( $size === 'lg' );
+		$label   = $is_elementor
+			? __( 'Elementor', 'canvasly-lite' )
+			: __( 'Raw data', 'canvasly-lite' );
+		$bg      = $is_elementor ? '#92003b' : '#6b7280';
+		$letter  = $is_elementor ? 'E' : '{ }';
+		$dim     = $lg ? '26px' : '18px';
+		$font    = $lg ? '13px' : '10px';
+		$style   = sprintf(
+			'display:inline-flex;align-items:center;justify-content:center;width:%1$s;height:%1$s;border-radius:50%%;background:%2$s;color:#fff;font-weight:700;font-size:%3$s;line-height:1;flex:none;',
+			$dim,
+			$bg,
+			$font
+		);
+		return '<span class="canvasly-lite-elementor-badge" style="' . esc_attr( $style ) . '" title="' . esc_attr( $label ) . '" aria-hidden="true">' . esc_html( $letter ) . '</span>&nbsp;';
+	}
+
+	/**
 	 * @param string $namespace
 	 */
 	public static function routes( $namespace ) {
@@ -200,14 +226,16 @@ class Tool {
 			$report = null;
 		}
 
-		echo '<hr><h2>' . esc_html__( 'Convert layout data', 'canvasly-lite' ) . '</h2>';
-		echo '<p class="description">' . esc_html__( 'Read stored third-party builder JSON, map sections and columns to containers, and produce Canvasly documents. Run a dry-run report first. Source data is left in place.', 'canvasly-lite' ) . '</p>';
+		echo '<div id="canvasly-lite-import-elementor" class="card" style="max-width:none;margin-top:24px;padding:16px 20px;">';
+		echo '<h2 style="display:flex;align-items:center;gap:8px;">' . self::elementor_badge( 'lg' ) . esc_html__( 'Import Elementor Pages / Convert Raw Data', 'canvasly-lite' ) . '</h2>';
+		echo '<p class="description">' . esc_html__( 'Reads stored Elementor page/section/widget JSON (and other raw third-party builder data), maps sections and columns to containers, and produces native Canvasly documents. Run a dry run first to see what will map cleanly and what won\'t, then commit when you\'re ready. Source Elementor data is never modified or deleted.', 'canvasly-lite' ) . '</p>';
 
 		if ( ! $candidates ) {
-			echo '<p>' . esc_html__( 'No convertible posts were found.', 'canvasly-lite' ) . '</p>';
+			echo '<p>' . esc_html__( 'No Elementor or raw-data pages were found to import.', 'canvasly-lite' ) . '</p>';
 			if ( $report ) {
 				self::render_report( $report );
 			}
+			echo '</div>';
 			return;
 		}
 
@@ -218,12 +246,24 @@ class Tool {
 		echo '<tr><th>' . esc_html__( 'Posts', 'canvasly-lite' ) . '</th><td>';
 		echo '<fieldset style="max-height:260px;overflow:auto;border:1px solid #dcdcde;padding:8px 12px;max-width:640px">';
 		foreach ( $candidates as $p ) {
-			$label = ( $p['title'] ?? '' ) !== '' ? $p['title'] : '#' . (int) ( $p['id'] ?? 0 );
-			$meta  = (string) ( $p['type'] ?? 'post' );
+			$label        = ( $p['title'] ?? '' ) !== '' ? $p['title'] : '#' . (int) ( $p['id'] ?? 0 );
+			$meta         = (string) ( $p['type'] ?? 'post' );
+			// Every row here was found via the Elementor source meta key
+			// (Converter::SOURCE_META), so the badge is always "Elementor";
+			// library items (headers/footers/saved templates) get a more
+			// specific label rather than a different badge colour.
+			$is_elementor = true;
+			if ( $meta === Converter::SOURCE_LIBRARY_TYPE ) {
+				$meta = __( 'Elementor template', 'canvasly-lite' );
+			}
 			if ( ! empty( $p['has_loom'] ) ) {
 				$meta .= ' · ' . __( 'already has a Canvasly document', 'canvasly-lite' );
 			}
-			echo '<label style="display:block;margin:3px 0;"><input type="checkbox" name="ids[]" value="' . esc_attr( (string) ( $p['id'] ?? 0 ) ) . '" checked> ' . esc_html( $label . ' (' . $meta . ')' ) . '</label>';
+			echo '<label style="display:flex;align-items:center;gap:6px;margin:4px 0;">';
+			echo '<input type="checkbox" name="ids[]" value="' . esc_attr( (string) ( $p['id'] ?? 0 ) ) . '" checked> ';
+			echo self::elementor_badge( 'sm', $is_elementor );
+			echo esc_html( $label . ' (' . $meta . ')' );
+			echo '</label>';
 		}
 		echo '</fieldset>';
 		echo '<p class="description">' . esc_html__( 'Library items are saved as Canvasly templates. Pages and posts that already have a Canvasly document are skipped unless you force overwrite.', 'canvasly-lite' ) . '</p>';
@@ -232,14 +272,15 @@ class Tool {
 		echo '<label><input type="checkbox" name="force" value="1"> ' . esc_html__( 'Overwrite existing Canvasly documents', 'canvasly-lite' ) . '</label>';
 		echo '</td></tr></tbody></table>';
 		echo '<p>';
-		echo '<button class="button" type="submit" name="mode" value="preview">' . esc_html__( 'Dry run', 'canvasly-lite' ) . '</button> ';
-		echo '<button class="button button-primary" type="submit" name="mode" value="run">' . esc_html__( 'Convert selected', 'canvasly-lite' ) . '</button>';
+		echo '<button class="button" type="submit" name="mode" value="preview">' . esc_html__( 'Dry Run', 'canvasly-lite' ) . '</button> ';
+		echo '<button class="button button-primary" type="submit" name="mode" value="run" onclick="return confirm(' . "'" . esc_js( __( 'Commit this import? Elementor source data is kept, so this is safe to re-run, but existing Canvasly documents on selected pages will be overwritten if you checked Overwrite.', 'canvasly-lite' ) ) . "'" . ');">' . esc_html__( 'Commit', 'canvasly-lite' ) . '</button>';
 		echo '</p>';
 		echo '</form>';
 
 		if ( $report ) {
 			self::render_report( $report );
 		}
+		echo '</div>';
 	}
 
 	/**

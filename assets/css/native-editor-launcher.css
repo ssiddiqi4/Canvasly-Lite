@@ -1,0 +1,39 @@
+#lb-native-editor-button.lb-native-editor-button {
+	display: inline-flex !important;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 auto;
+	width: auto !important;
+	min-width: 0;
+	height: 32px;
+	margin: 0 !important;
+	margin-inline-start: 8px !important;
+	padding: 0 12px !important;
+	background: #1e1e1e;
+	color: #fff;
+	border: 0;
+	border-radius: 2px;
+	font-size: 13px;
+	line-height: 1;
+	font-weight: 500;
+	cursor: pointer;
+	white-space: nowrap;
+	box-shadow: none;
+}
+.editor-document-tools #lb-native-editor-button,
+.edit-post-header-toolbar #lb-native-editor-button {
+	align-self: center;
+}
+.lb-native-editor-launch {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+#lb-native-editor-button.lb-native-editor-button:hover,
+#lb-native-editor-button.lb-native-editor-button:focus {
+	background: #3a3a3a;
+	color: #fff;
+}

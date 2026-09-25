@@ -1,0 +1,6 @@
+Font Awesome Free icon metadata
+
+This Canvasly Lite distribution includes metadata derived from the Font Awesome Free icon set.
+Font Awesome Free is licensed under the SIL OFL 1.1 (font files), MIT License (code), and CC BY 4.0 (icons).
+See https://fontawesome.com/license/free for the applicable licenses and attribution terms.
+Canvasly Lite does not include Elementor code or Elementor runtime identifiers.

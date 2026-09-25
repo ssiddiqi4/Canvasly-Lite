@@ -1,0 +1,17 @@
+/* Menu Anchor — smooth in-page jumps and sticky-header clearance.
+   Themes set --lb-anchor-scroll-offset to the sticky header height. */
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+.lb-menu-anchor,
+.lb-anchor-section {
+	scroll-margin-top: var(--lb-anchor-scroll-offset, 80px);
+}

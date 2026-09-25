@@ -1,0 +1,3738 @@
+# Copyright (C) 2026 Canvasly
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Canvasly 0.12.42\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-20 16:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Canvasly tools/i18n_build.py\n"
+"X-Domain: canvasly-lite\n"
+
+
+#: includes/i18n/class-i18n.php:373 #: assets/js/editor.js:7848
+msgid "#3f7fdf"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:372 #: assets/js/editor.js:7847
+msgid "#ea4335"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:378 #: assets/js/editor.js:8773
+msgid "%"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:88 #: assets/js/editor.js:706 #: assets/js/editor.js:3859
+msgid "%s Component"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:85 #: assets/js/editor.js:697
+msgid "%s Template"
+msgstr ""
+
+#: includes/elements/class-button.php:28
+msgid "12px 22px"
+msgstr ""
+
+#: includes/elements/class-element.php:251 #: includes/elements/class-heading.php:25
+msgid "1px 1px 4px rgba(0,0,0,.25)"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:417
+msgid "A key is stored. Leave blank to keep the current key."
+msgstr ""
+
+#: includes/api/class-layout-schema.php:162
+msgid "A post id is required."
+msgstr ""
+
+#: includes/api/class-mcp-host.php:302
+msgid "A post_id is required."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:443
+msgid "A token is active"
+msgstr ""
+
+#: includes/api/class-mcp-host.php:45
+msgid "A valid MCP bearer token or administrator session is required."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:300 #: assets/js/editor.js:2690
+msgid "A11y"
+msgstr ""
+
+#: includes/elements/class-element.php:176
+msgid "Absolute"
+msgstr ""
+
+#: includes/design/class-variables.php:49 #: includes/i18n/class-i18n.php:390 #: includes/settings/class-global-settings.php:108 #: assets/js/editor.js:9461
+msgid "Accent"
+msgstr ""
+
+#: includes/design/class-variables.php:78 #: includes/i18n/class-i18n.php:394 #: assets/js/editor.js:9486
+msgid "Accent Text"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:304 #: assets/js/editor.js:2712 #: assets/js/editor.js:6960
+msgid "Accessibility Audit"
+msgstr ""
+
+#: includes/elements/class-accordion.php:9 #: includes/elements/class-accordion.php:22 #: includes/elements/class-nested_accordion.php:26
+msgid "Accordion"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:254 #: assets/js/editor.js:2388
+msgid "Action"
+msgstr ""
+
+#: includes/elements/class-nested_tabs.php:41 #: includes/elements/class-tabs.php:34
+msgid "Active Background"
+msgstr ""
+
+#: includes/elements/class-accordion.php:38 #: includes/elements/class-accordion.php:45 #: includes/elements/class-nested_accordion.php:41 #: includes/elements/class-nested_accordion.php:48 #: includes/elements/class-nested_tabs.php:39 #: includes/elements/class-tabs.php:32
+msgid "Active Color"
+msgstr ""
+
+#: includes/elements/class-accordion.php:33 #: includes/elements/class-nested_accordion.php:36
+msgid "Active Icon"
+msgstr ""
+
+#: includes/elements/class-nested_tabs.php:33 #: includes/elements/class-tabs.php:26
+msgid "Active Tab"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:173 #: assets/js/editor.js:1576 #: assets/js/editor.js:3610 #: assets/js/editor.js:4050
+msgid "Add"
+msgstr ""
+
+#: includes/elements/class-google_maps.php:3
+msgid "Add a map address"
+msgstr ""
+
+#: includes/elements/class-soundcloud.php:10
+msgid "Add a SoundCloud track or playlist URL"
+msgstr ""
+
+#: includes/elements/class-video.php:99
+msgid "Add a video URL"
+msgstr ""
+
+#: includes/elements/class-audio.php:8
+msgid "Add an audio file URL"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:222 #: assets/js/editor.js:1908 #: assets/js/editor.js:1923
+msgid "Add an element to begin"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:102 #: assets/js/editor.js:1171 #: assets/js/editor.js:1172
+msgid "Add audio URL"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:406 #: assets/js/editor.js:9767
+msgid "Add Color"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:364 #: assets/js/editor.js:6984
+msgid "Add Element"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:386 #: assets/js/editor.js:9249
+msgid "Add items"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:77 #: assets/js/editor.js:595 #: assets/js/editor.js:603
+msgid "Add New Container"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:194 #: assets/js/editor.js:1692
+msgid "Add New Page"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:192 #: assets/js/editor.js:1680 #: assets/js/editor.js:1691
+msgid "Add Page"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:218
+msgid "Add private notes for this page\\\\u2026"
+msgstr ""
+
+#: assets/js/editor.js:1871
+msgid "Add private notes for this page\\u2026"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:157 #: assets/js/editor.js:1500
+msgid "Add SVG"
+msgstr ""
+
+#: includes/elements/class-nested_tabs.php:52 #: includes/elements/class-tabs.php:45 #: includes/i18n/class-i18n.php:384 #: assets/js/editor.js:9190
+msgid "Add tabs"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:68 #: assets/js/editor.js:584 #: assets/js/editor.js:594
+msgid "Add to Favorites"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:410 #: assets/js/editor.js:9773
+msgid "Add Typography"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:201 #: assets/js/editor.js:1838
+msgid "Adjust page and site-wide editor settings."
+msgstr ""
+
+#: includes/elements/class-button.php:19
+msgid "After"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:441
+msgid "Agent token"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:260 #: includes/settings/class-ai-connection.php:376
+msgid "AI Connection"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:292
+msgid "AI connection settings saved."
+msgstr ""
+
+#: includes/elements/class-alert.php:5
+msgid "Alert"
+msgstr ""
+
+#: includes/elements/class-container.php:29 #: includes/elements/class-image.php:14
+msgid "Align"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:356 #: assets/js/editor.js:4261
+msgid "Align Items"
+msgstr ""
+
+#: includes/elements/class-element.php:190 #: includes/i18n/class-i18n.php:268 #: assets/js/editor.js:2561
+msgid "Align Self"
+msgstr ""
+
+#: includes/elements/class-button.php:17 #: includes/elements/class-carousel.php:50 #: includes/elements/class-heading.php:17 #: includes/elements/class-icon.php:16 #: includes/elements/class-icon_list.php:32 #: includes/elements/class-nested_tabs.php:35 #: includes/elements/class-social.php:49 #: includes/elements/class-tabs.php:28 #: includes/elements/class-testimonial.php:30 #: includes/elements/class-tinymce_text_editor.php:36 #: includes/i18n/class-i18n.php:262 #: assets/js/editor.js:2548
+msgid "Alignment"
+msgstr ""
+
+#: includes/elements/class-element.php:215
+msgid "all .3s ease"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:259 #: assets/js/editor.js:2526
+msgid "All tab label"
+msgstr ""
+
+#: includes/elements/class-carousel.php:20 #: includes/elements/class-image.php:22 #: includes/i18n/class-i18n.php:441 #: assets/js/editor.js:10640
+msgid "Alt Text"
+msgstr ""
+
+#: includes/elements/class-carousel.php:41
+msgid "Animation Speed"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:38
+msgid "Anthropic"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:414
+msgid "API key"
+msgstr ""
+
+#: includes/elements/class-element.php:238
+msgid "ARIA Label"
+msgstr ""
+
+#: includes/elements/class-element.php:219
+msgid "Arrow"
+msgstr ""
+
+#: includes/elements/class-carousel.php:12 #: includes/elements/class-carousel.php:30
+msgid "Arrows"
+msgstr ""
+
+#: includes/elements/class-carousel.php:30
+msgid "Arrows and Dots"
+msgstr ""
+
+#: includes/elements/class-container.php:35
+msgid "article"
+msgstr ""
+
+#: includes/elements/class-testimonial.php:29
+msgid "Aside"
+msgstr ""
+
+#: includes/elements/class-container.php:35
+msgid "aside"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:302 #: assets/js/editor.js:2690
+msgid "Assets"
+msgstr ""
+
+#: includes/elements/class-image.php:25
+msgid "Async"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:340 #: assets/js/editor.js:3784
+msgid "Atomic Architecture"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:323 #: assets/js/editor.js:2839
+msgid "Atomic Element"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:327 #: assets/js/editor.js:2931
+msgid "Atomic Elements"
+msgstr ""
+
+#: includes/elements/class-image.php:20
+msgid "Attachment"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:117 #: assets/js/editor.js:1218
+msgid "Attachment Page"
+msgstr ""
+
+#: includes/elements/class-element.php:235 #: includes/elements/class-element.php:236 #: includes/elements/class-element.php:237 #: includes/elements/class-element.php:238 #: includes/elements/class-element.php:239 #: includes/elements/class-element.php:240
+msgid "Attributes"
+msgstr ""
+
+#: includes/elements/class-audio.php:5 #: includes/i18n/class-i18n.php:103 #: assets/js/editor.js:1172
+msgid "Audio"
+msgstr ""
+
+#: includes/elements/class-container.php:34 #: includes/elements/class-element.php:182 #: includes/elements/class-element.php:190 #: includes/elements/class-element.php:191 #: includes/elements/class-element.php:222 #: includes/elements/class-image.php:24 #: includes/elements/class-image.php:25 #: includes/elements/class-image.php:26 #: includes/i18n/class-i18n.php:124 #: assets/js/editor.js:1218
+msgid "Auto"
+msgstr ""
+
+#: includes/elements/class-element.php:189
+msgid "auto"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:292 #: assets/js/editor.js:2586 #: assets/js/editor.js:4261 #: assets/js/editor.js:4262
+msgid "Auto Flow"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:355 #: assets/js/editor.js:4261
+msgid "Auto Flow & Alignment"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:291 #: assets/js/editor.js:2586
+msgid "Auto Row Size"
+msgstr ""
+
+#: includes/elements/class-carousel.php:35
+msgid "Autoplay"
+msgstr ""
+
+#: includes/elements/class-carousel.php:38
+msgid "Autoplay Speed"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:421
+msgid "Azure endpoint"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:54
+msgid "Azure OpenAI"
+msgstr ""
+
+#: includes/elements/class-flip_box.php:3 #: includes/i18n/class-i18n.php:411 #: assets/js/editor.js:9775
+msgid "Back"
+msgstr ""
+
+#: includes/elements/class-flip_box.php:3
+msgid "Back content"
+msgstr ""
+
+#: includes/elements/class-accordion.php:39 #: includes/elements/class-accordion.php:42 #: includes/elements/class-container.php:41 #: includes/elements/class-element.php:221 #: includes/elements/class-element.php:222 #: includes/elements/class-element.php:223 #: includes/elements/class-element.php:224 #: includes/elements/class-element.php:225 #: includes/elements/class-element.php:226 #: includes/elements/class-element.php:227 #: includes/elements/class-nested_accordion.php:42 #: includes/elements/class-nested_accordion.php:45 #: …and 10 more
+msgid "Background"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:462 #: assets/js/editor.js:10672
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/elements/class-element.php:227 #: includes/i18n/class-i18n.php:313 #: assets/js/editor.js:2825 #: assets/js/editor.js:3098
+msgid "Background Clip"
+msgstr ""
+
+#: includes/elements/class-button.php:23 #: includes/i18n/class-i18n.php:416 #: assets/js/editor.js:10266 #: assets/js/editor.js:10317 #: assets/js/editor.js:10319 #: assets/js/editor.js:10667
+msgid "Background Color"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:312 #: assets/js/editor.js:2825 #: assets/js/editor.js:3098
+msgid "Background Gradient"
+msgstr ""
+
+#: includes/elements/class-element.php:221 #: includes/i18n/class-i18n.php:142 #: assets/js/editor.js:1441 #: assets/js/editor.js:2568 #: assets/js/editor.js:8730 #: assets/js/editor.js:8774 #: assets/js/editor.js:10668
+msgid "Background Image"
+msgstr ""
+
+#: includes/elements/class-element.php:225
+msgid "Background Overlay"
+msgstr ""
+
+#: includes/elements/class-element.php:223 #: includes/i18n/class-i18n.php:144 #: assets/js/editor.js:1441 #: assets/js/editor.js:2568 #: assets/js/editor.js:8730 #: assets/js/editor.js:8774 #: assets/js/editor.js:10670
+msgid "Background Position"
+msgstr ""
+
+#: includes/elements/class-element.php:224 #: includes/i18n/class-i18n.php:145 #: assets/js/editor.js:1441 #: assets/js/editor.js:2568 #: assets/js/editor.js:8730 #: assets/js/editor.js:8774 #: assets/js/editor.js:10671
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/elements/class-element.php:222 #: includes/i18n/class-i18n.php:143 #: assets/js/editor.js:1441 #: assets/js/editor.js:2568 #: assets/js/editor.js:8730 #: assets/js/editor.js:8774 #: assets/js/editor.js:10669
+msgid "Background Size"
+msgstr ""
+
+#: includes/elements/class-container.php:20 #: includes/elements/class-container.php:47
+msgid "Background Video"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:57 #: includes/settings/class-global-settings.php:123 #: assets/js/editor.js:511
+msgid "Base"
+msgstr ""
+
+#: includes/elements/class-container.php:29 #: includes/elements/class-element.php:190
+msgid "Baseline"
+msgstr ""
+
+#: includes/elements/class-button.php:19
+msgid "Before"
+msgstr ""
+
+#: includes/elements/class-container.php:46 #: includes/elements/class-element.php:217 #: includes/i18n/class-i18n.php:146 #: assets/js/editor.js:1441 #: assets/js/editor.js:8774
+msgid "Blend Mode"
+msgstr ""
+
+#: includes/elements/class-container.php:25 #: includes/elements/class-element.php:184
+msgid "Block"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:135 #: assets/js/editor.js:1437
+msgid "Blur"
+msgstr ""
+
+#: includes/elements/class-element.php:216 #: includes/elements/class-image.php:34
+msgid "blur(2px)"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:425 #: assets/js/editor.js:10294
+msgid "Body"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:188 #: assets/js/editor.js:1607
+msgid "Body class"
+msgstr ""
+
+#: includes/settings/class-global-settings.php:114
+msgid "Body Font"
+msgstr ""
+
+#: includes/design/class-variables.php:77 #: includes/i18n/class-i18n.php:393 #: assets/js/editor.js:9485
+msgid "Body Text"
+msgstr ""
+
+#: includes/elements/class-accordion.php:22 #: includes/elements/class-element.php:229 #: includes/elements/class-element.php:230 #: includes/elements/class-element.php:231 #: includes/elements/class-element.php:232 #: includes/elements/class-element.php:233 #: includes/elements/class-nested_accordion.php:26 #: includes/i18n/class-i18n.php:376 #: assets/js/editor.js:8730 #: assets/js/editor.js:8774
+msgid "Border"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:282 #: assets/js/editor.js:2569
+msgid "Border & Effects"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:315 #: assets/js/editor.js:2831
+msgid "Border & Shadow"
+msgstr ""
+
+#: includes/elements/class-element.php:227
+msgid "Border Box"
+msgstr ""
+
+#: includes/elements/class-button.php:32 #: includes/elements/class-element.php:231 #: includes/elements/class-image.php:37 #: includes/elements/class-nested_tabs.php:46 #: includes/elements/class-tabs.php:39 #: includes/i18n/class-i18n.php:316 #: assets/js/editor.js:2831 #: assets/js/editor.js:10270
+msgid "Border Color"
+msgstr ""
+
+#: includes/elements/class-button.php:29 #: includes/elements/class-carousel.php:45 #: includes/elements/class-element.php:232 #: includes/i18n/class-i18n.php:317 #: assets/js/editor.js:2831 #: assets/js/editor.js:10271
+msgid "Border Radius"
+msgstr ""
+
+#: includes/elements/class-button.php:31 #: includes/elements/class-element.php:229 #: includes/elements/class-image.php:36 #: includes/i18n/class-i18n.php:284 #: assets/js/editor.js:2569 #: assets/js/editor.js:2831 #: assets/js/editor.js:8730 #: assets/js/editor.js:8774 #: assets/js/editor.js:10269
+msgid "Border Style"
+msgstr ""
+
+#: includes/elements/class-button.php:30 #: includes/elements/class-element.php:230 #: includes/elements/class-image.php:35 #: includes/elements/class-nested_tabs.php:47 #: includes/elements/class-tabs.php:40 #: includes/i18n/class-i18n.php:283 #: assets/js/editor.js:2569 #: assets/js/editor.js:2831 #: assets/js/editor.js:8730 #: assets/js/editor.js:8774 #: assets/js/editor.js:10268
+msgid "Border Width"
+msgstr ""
+
+#: includes/elements/class-element.php:179 #: includes/elements/class-image.php:31 #: includes/i18n/class-i18n.php:123 #: assets/js/editor.js:1218 #: assets/js/editor.js:1433 #: assets/js/editor.js:2365
+msgid "Bottom"
+msgstr ""
+
+#: includes/elements/class-image.php:31
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/elements/class-image.php:31
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/elements/class-container.php:59
+msgid "Bottom Shape"
+msgstr ""
+
+#: includes/elements/class-container.php:60
+msgid "Bottom Shape Color"
+msgstr ""
+
+#: includes/elements/class-container.php:61
+msgid "Bottom Shape Height"
+msgstr ""
+
+#: includes/elements/class-container.php:62
+msgid "Bottom Shape Width"
+msgstr ""
+
+#: includes/elements/class-element.php:233 #: includes/i18n/class-i18n.php:318 #: assets/js/editor.js:2831 #: assets/js/editor.js:10273
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:299 #: includes/settings/class-global-settings.php:116 #: assets/js/editor.js:2690 #: assets/js/editor.js:6949
+msgid "Breakpoints"
+msgstr ""
+
+#: includes/elements/class-container.php:64
+msgid "Bring Bottom Shape Front"
+msgstr ""
+
+#: includes/elements/class-container.php:58
+msgid "Bring Top Shape Front"
+msgstr ""
+
+#: includes/elements/class-button.php:5 #: includes/elements/class-button.php:10
+msgid "Button"
+msgstr ""
+
+#: includes/elements/class-button.php:21
+msgid "Button ID"
+msgstr ""
+
+#: includes/elements/class-price_table.php:29
+msgid "Button Link"
+msgstr ""
+
+#: includes/elements/class-price_table.php:28
+msgid "Button Text"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:429 #: assets/js/editor.js:10317
+msgid "Buttons"
+msgstr ""
+
+#: includes/elements/class-element.php:110
+msgid "Buzz"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:183 #: assets/js/editor.js:1606
+msgid "Canvas"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:64 #: includes/settings/class-global-settings.php:119 #: assets/js/editor.js:522
+msgid "Canvas (px)"
+msgstr ""
+
+#: includes/elements/class-element.php:247
+msgid "Capitalize"
+msgstr ""
+
+#: includes/elements/class-carousel.php:12 #: includes/elements/class-carousel.php:19 #: includes/elements/class-carousel.php:33 #: includes/elements/class-image.php:20 #: includes/i18n/class-i18n.php:261 #: assets/js/editor.js:2548 #: assets/js/editor.js:10318 #: assets/js/editor.js:10640
+msgid "Caption"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:460 #: assets/js/editor.js:10664
+msgid "Caption Source"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:432 #: assets/js/editor.js:10318
+msgid "Caption Spacing"
+msgstr ""
+
+#: includes/elements/class-image.php:21
+msgid "Caption Text"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:156 #: assets/js/editor.js:1500
+msgid "Category"
+msgstr ""
+
+#: includes/elements/class-container.php:28 #: includes/elements/class-container.php:29 #: includes/elements/class-element.php:108 #: includes/elements/class-element.php:109 #: includes/elements/class-element.php:190 #: includes/elements/class-element.php:191 #: includes/elements/class-image.php:15 #: includes/elements/class-image.php:31 #: includes/elements/class-nested_tabs.php:35 #: includes/elements/class-tabs.php:28 #: includes/i18n/class-i18n.php:113 #: assets/js/editor.js:1218
+msgid "Center"
+msgstr ""
+
+#: includes/elements/class-element.php:223
+msgid "center"
+msgstr ""
+
+#: includes/elements/class-form.php:24
+msgid "Checkbox"
+msgstr ""
+
+#: includes/api/class-layout-schema.php:306
+msgid "Child nodes. Only valid when the type sets children=true."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:574
+msgid "Choose a provider before testing."
+msgstr ""
+
+#: includes/elements/class-wordpress.php:30
+msgid "Choose a WordPress widget"
+msgstr ""
+
+#: includes/elements/class-sidebar.php:10
+msgid "Choose an active sidebar"
+msgstr ""
+
+#: includes/elements/class-image.php:45 #: includes/elements/class-image_box.php:20
+msgid "Choose an image"
+msgstr ""
+
+#: includes/elements/class-image.php:11
+msgid "Choose Image"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:100 #: assets/js/editor.js:1160 #: assets/js/editor.js:1417 #: assets/js/editor.js:2654 #: assets/js/editor.js:7485 #: assets/js/editor.js:10636
+msgid "Choose image"
+msgstr ""
+
+#: includes/elements/class-gallery.php:118 #: includes/i18n/class-i18n.php:95 #: assets/js/editor.js:950 #: assets/js/editor.js:1421 #: assets/js/editor.js:2522
+msgid "Choose images"
+msgstr ""
+
+#: includes/elements/class-carousel.php:71 #: includes/i18n/class-i18n.php:371 #: assets/js/editor.js:7751
+msgid "Choose images for the carousel"
+msgstr ""
+
+#: includes/settings/class-global-settings.php:134
+msgid "Choose which public post types can be edited with Canvasly. Posts and Pages are enabled by default; any public custom post type can be added."
+msgstr ""
+
+#: includes/elements/class-element.php:218 #: includes/elements/class-icon.php:13 #: includes/elements/class-social.php:47
+msgid "Circle"
+msgstr ""
+
+#: includes/design/class-global-classes.php:27
+msgid "Class inheritance would create a cycle."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:171 #: assets/js/editor.js:1576
+msgid "Class name"
+msgstr ""
+
+#: includes/design/class-global-classes.php:23
+msgid "Class name required."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:229 #: assets/js/editor.js:1950 #: assets/js/editor.js:3873 #: assets/js/editor.js:6949
+msgid "Classes"
+msgstr ""
+
+#: includes/elements/class-button.php:8 #: includes/elements/class-button.php:40
+msgid "Click Here"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:152 #: includes/i18n/class-i18n.php:474 #: assets/js/editor.js:1480 #: assets/js/editor.js:3345 #: assets/js/frontend.js:93
+msgid "Close"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:457 #: assets/js/editor.js:10661
+msgid "Close Button"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:217 #: assets/js/editor.js:1848
+msgid "Close menu"
+msgstr ""
+
+#: includes/elements/class-code.php:3
+msgid "Code"
+msgstr ""
+
+#: includes/elements/class-accordion.php:37 #: includes/elements/class-accordion.php:41 #: includes/elements/class-accordion.php:44 #: includes/elements/class-accordion.php:47 #: includes/elements/class-carousel.php:47 #: includes/elements/class-carousel.php:49 #: includes/elements/class-carousel.php:51 #: includes/elements/class-icon_list.php:43 #: includes/elements/class-nested_accordion.php:40 #: includes/elements/class-nested_accordion.php:44 #: includes/elements/class-nested_accordion.php:47 #: includes/elements/class-nested_accordion.php:50 #: …and 9 more
+msgid "Color"
+msgstr ""
+
+#: includes/elements/class-element.php:217
+msgid "Color Burn"
+msgstr ""
+
+#: includes/elements/class-element.php:217
+msgid "Color Dodge"
+msgstr ""
+
+#: includes/elements/class-container.php:26
+msgid "Column"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:348 #: assets/js/editor.js:4259 #: assets/js/editor.js:4262
+msgid "Column Count"
+msgstr ""
+
+#: includes/elements/class-container.php:31 #: includes/i18n/class-i18n.php:293 #: assets/js/editor.js:2586
+msgid "Column Gap"
+msgstr ""
+
+#: includes/elements/class-container.php:26
+msgid "Column Reverse"
+msgstr ""
+
+#: includes/elements/class-element.php:193 #: includes/i18n/class-i18n.php:265 #: assets/js/editor.js:2561 #: assets/js/editor.js:4251
+msgid "Column Span"
+msgstr ""
+
+#: includes/elements/class-element.php:192 #: includes/i18n/class-i18n.php:264 #: assets/js/editor.js:2561 #: assets/js/editor.js:4251
+msgid "Column Start"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:288 #: assets/js/editor.js:2586 #: assets/js/editor.js:4259 #: assets/js/editor.js:4262
+msgid "Column Tracks"
+msgstr ""
+
+#: includes/elements/class-container.php:33 #: includes/elements/class-social.php:50
+msgid "Columns"
+msgstr ""
+
+#: includes/elements/class-component.php:7 #: includes/i18n/class-i18n.php:339 #: assets/js/editor.js:3755 #: assets/js/editor.js:3918
+msgid "Component"
+msgstr ""
+
+#: includes/elements/class-component.php:10
+msgid "Component #%s not found"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:336 #: assets/js/editor.js:3706 #: assets/js/editor.js:4125
+msgid "Component could not be saved."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:87 #: assets/js/editor.js:706 #: assets/js/editor.js:1758 #: assets/js/editor.js:3859
+msgid "Component name:"
+msgstr ""
+
+#: includes/api/class-rest.php:34 #: includes/api/class-rest.php:35
+msgid "Component not found"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:347 #: assets/js/editor.js:4135
+msgid "Component saved. All instances now use the updated component definition."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:337 #: assets/js/editor.js:3716
+msgid "Component saved. All instances will use the updated component definition."
+msgstr ""
+
+#: includes/design/class-components.php:10
+msgid "Component title required."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:164 #: assets/js/editor.js:1546 #: assets/js/editor.js:1950 #: assets/js/editor.js:3873 #: assets/js/editor.js:4015 #: assets/js/editor.js:6949
+msgid "Components"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:338 #: assets/js/editor.js:3728
+msgid "Components 2.0"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:207 #: assets/js/editor.js:1841
+msgid "Configure editor preferences."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:388
+msgid "Connect Canvasly to a supported AI API. Only allowlisted HTTPS hosts can be stored; API keys are encrypted at rest and never sent to the editor."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:623
+msgid "Connection succeeded."
+msgstr ""
+
+#: includes/elements/class-form.php:7
+msgid "Contact Us"
+msgstr ""
+
+#: includes/elements/class-element.php:222 #: includes/elements/class-image.php:30
+msgid "Contain"
+msgstr ""
+
+#: includes/elements/class-container.php:9
+msgid "Container"
+msgstr ""
+
+#: includes/elements/class-accordion.php:22 #: includes/elements/class-accordion.php:28 #: includes/elements/class-nested_accordion.php:26 #: includes/elements/class-nested_tabs.php:25 #: includes/elements/class-tabs.php:17 #: includes/elements/class-tabs.php:23 #: includes/elements/class-testimonial.php:14 #: includes/elements/class-testimonial.php:19 #: includes/elements/class-tinymce_text_editor.php:31 #: includes/i18n/class-i18n.php:330 #: assets/js/editor.js:3458
+msgid "Content"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:442 #: includes/settings/class-global-settings.php:115 #: assets/js/editor.js:10644
+msgid "Content Width"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:189 #: assets/js/editor.js:1607
+msgid "Content width"
+msgstr ""
+
+#: includes/api/class-layout-schema.php:301
+msgid "Control values for this type. See elements[].settings and shared_settings."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:76 #: assets/js/editor.js:593
+msgid "Convert to nested"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:72 #: assets/js/editor.js:589
+msgid "Copy"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:82 #: assets/js/editor.js:604
+msgid "Copy All Content"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:381
+msgid "Copy this MCP token now."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:326 #: assets/js/editor.js:2897 #: assets/js/editor.js:3898
+msgid "Could not import design system."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:166 #: assets/js/editor.js:1548
+msgid "Could not load components."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:296 #: assets/js/editor.js:2684
+msgid "Could not load performance information."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:178 #: assets/js/editor.js:1594
+msgid "Could not load revisions."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:163 #: assets/js/editor.js:1540
+msgid "Could not load templates."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:614
+msgid "Could not reach the provider."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:66 #: assets/js/editor.js:553
+msgid "Could not save breakpoints."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:89 #: assets/js/editor.js:709 #: assets/js/editor.js:1761 #: assets/js/editor.js:3673 #: assets/js/editor.js:3865 #: assets/js/editor.js:3955
+msgid "Could not save component."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:331 #: assets/js/editor.js:3550
+msgid "Could not save global class."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:86 #: assets/js/editor.js:701 #: assets/js/editor.js:1754
+msgid "Could not save template."
+msgstr ""
+
+#: includes/elements/class-counter.php:5 #: includes/i18n/class-i18n.php:458 #: assets/js/editor.js:10662
+msgid "Counter"
+msgstr ""
+
+#: includes/elements/class-element.php:222 #: includes/elements/class-image.php:30
+msgid "Cover"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:191
+msgid "Creating\\\\u2026"
+msgstr ""
+
+#: assets/js/editor.js:1668
+msgid "Creating\\u2026"
+msgstr ""
+
+#: includes/elements/class-element.php:236 #: includes/i18n/class-i18n.php:252 #: assets/js/editor.js:2388
+msgid "CSS Classes"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:172 #: assets/js/editor.js:1576
+msgid "CSS declarations"
+msgstr ""
+
+#: includes/elements/class-element.php:216 #: includes/elements/class-image.php:34 #: includes/i18n/class-i18n.php:286 #: assets/js/editor.js:2569 #: assets/js/editor.js:8774 #: assets/js/editor.js:10318
+msgid "CSS Filter"
+msgstr ""
+
+#: includes/elements/class-element.php:235 #: includes/i18n/class-i18n.php:251 #: assets/js/editor.js:2388
+msgid "CSS ID"
+msgstr ""
+
+#: includes/elements/class-element.php:214 #: includes/i18n/class-i18n.php:379 #: assets/js/editor.js:8774
+msgid "CSS Transform"
+msgstr ""
+
+#: includes/elements/class-element.php:219 #: includes/settings/class-ai-connection.php:72
+msgid "Cursor"
+msgstr ""
+
+#: includes/elements/class-image.php:20 #: includes/elements/class-social.php:48 #: includes/i18n/class-i18n.php:414 #: assets/js/editor.js:9848 #: assets/js/editor.js:9856
+msgid "Custom"
+msgstr ""
+
+#: includes/elements/class-element.php:240
+msgid "Custom Attributes"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:404 #: assets/js/editor.js:9767
+msgid "Custom Colors"
+msgstr ""
+
+#: includes/elements/class-element.php:241 #: includes/i18n/class-i18n.php:250 #: assets/js/editor.js:2388
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:322 #: assets/js/editor.js:2835
+msgid "Custom Field"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:408 #: assets/js/editor.js:9773
+msgid "Custom Typography"
+msgstr ""
+
+#: includes/elements/class-carousel.php:31 #: includes/elements/class-image.php:16 #: includes/elements/class-image.php:17
+msgid "Custom URL"
+msgstr ""
+
+#: includes/elements/class-carousel.php:25
+msgid "Custom URLs"
+msgstr ""
+
+#: includes/elements/class-button.php:15
+msgid "Danger"
+msgstr ""
+
+#: includes/elements/class-element.php:217
+msgid "Darken"
+msgstr ""
+
+#: includes/elements/class-button.php:31 #: includes/elements/class-element.php:229 #: includes/elements/class-icon_list.php:41 #: includes/elements/class-image.php:36
+msgid "Dashed"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:110 #: assets/js/editor.js:1218
+msgid "Date"
+msgstr ""
+
+#: includes/elements/class-image.php:25
+msgid "Decoding"
+msgstr ""
+
+#: includes/elements/class-element.php:248 #: includes/i18n/class-i18n.php:278 #: assets/js/editor.js:2567 #: assets/js/editor.js:8730 #: assets/js/editor.js:9784 #: assets/js/editor.js:10253
+msgid "Decoration"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:96
+msgid "DeepSeek"
+msgstr ""
+
+#: includes/elements/class-button.php:15 #: includes/elements/class-container.php:34 #: includes/elements/class-element.php:112 #: includes/elements/class-element.php:176 #: includes/elements/class-element.php:182 #: includes/elements/class-element.php:184 #: includes/elements/class-element.php:185 #: includes/elements/class-element.php:190 #: includes/elements/class-element.php:191 #: includes/elements/class-element.php:219 #: includes/elements/class-element.php:222 #: includes/elements/class-element.php:224 #: …and 17 more
+msgid "Default"
+msgstr ""
+
+#: includes/elements/class-icon_list.php:29
+msgid "Default Icon"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:447 #: assets/js/editor.js:10649
+msgid "Default Template"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:186 #: assets/js/editor.js:1607
+msgid "Default uses the theme layout. Full Width keeps the header and footer. Canvas is a blank document."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:257 #: assets/js/editor.js:2388
+msgid "Delay"
+msgstr ""
+
+#: includes/elements/class-element.php:208
+msgid "Delay (s)"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:81 #: assets/js/editor.js:600 #: assets/js/editor.js:1208 #: assets/js/editor.js:1459 #: assets/js/editor.js:1521 #: assets/js/editor.js:2554 #: assets/js/editor.js:2588 #: assets/js/editor.js:3459 #: assets/js/editor.js:3564 #: assets/js/editor.js:3728 #: assets/js/editor.js:4049 #: assets/js/editor.js:4103 #: …and 5 more
+msgid "Delete"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:83 #: assets/js/editor.js:605
+msgid "Delete All Content"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:53 #: assets/js/editor.js:377
+msgid "Delete all content from this page?"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:162 #: assets/js/editor.js:1532
+msgid "Delete this template?"
+msgstr ""
+
+#: includes/elements/class-carousel.php:33
+msgid "Description"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:324 #: includes/settings/class-global-settings.php:27 #: assets/js/editor.js:2877
+msgid "Design System"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:343 #: assets/js/editor.js:3873
+msgid "Design System 2.0"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:345 #: assets/js/editor.js:4015
+msgid "Design System 2.1"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:344 #: assets/js/editor.js:3896 #: assets/js/editor.js:4036
+msgid "Design system imported successfully."
+msgstr ""
+
+#: includes/settings/class-breakpoints.php:74
+msgid "Desktop"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:61 #: includes/settings/class-global-settings.php:119 #: assets/js/editor.js:522
+msgid "Device"
+msgstr ""
+
+#: includes/elements/class-element.php:218
+msgid "Diamond"
+msgstr ""
+
+#: includes/elements/class-element.php:217
+msgid "Difference"
+msgstr ""
+
+#: includes/elements/class-carousel.php:42 #: includes/elements/class-container.php:26
+msgid "Direction"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:391
+msgid "Disabled"
+msgstr ""
+
+#: includes/elements/class-element.php:184 #: includes/i18n/class-i18n.php:271 #: assets/js/editor.js:2566
+msgid "Display"
+msgstr ""
+
+#: includes/elements/class-container.php:35 #: includes/elements/class-element.php:111
+msgid "div"
+msgstr ""
+
+#: includes/elements/class-divider.php:8 #: includes/elements/class-icon_list.php:19 #: includes/elements/class-icon_list.php:33
+msgid "Divider"
+msgstr ""
+
+#: includes/api/class-layout-schema.php:276
+msgid "Document schema version. Use \"2.1\"."
+msgstr ""
+
+#: includes/elements/class-carousel.php:12 #: includes/elements/class-carousel.php:30
+msgid "Dots"
+msgstr ""
+
+#: includes/elements/class-button.php:31 #: includes/elements/class-element.php:229 #: includes/elements/class-icon_list.php:41 #: includes/elements/class-image.php:36
+msgid "Dotted"
+msgstr ""
+
+#: includes/elements/class-button.php:31 #: includes/elements/class-element.php:229 #: includes/elements/class-icon_list.php:41 #: includes/elements/class-image.php:36
+msgid "Double"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:150 #: assets/js/editor.js:1477 #: assets/js/editor.js:3092
+msgid "Double-click to add"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:130 #: assets/js/editor.js:1293
+msgid "Drag to reorder"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:99 #: assets/js/editor.js:1151
+msgid "Drop element here"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:383 #: assets/js/editor.js:9181
+msgid "Drop into %s"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:71 #: assets/js/editor.js:588 #: assets/js/editor.js:1208 #: assets/js/editor.js:1293 #: assets/js/editor.js:1459 #: assets/js/editor.js:1521 #: assets/js/editor.js:2522 #: assets/js/editor.js:2554 #: assets/js/editor.js:2588 #: assets/js/editor.js:3459 #: assets/js/editor.js:3728 #: assets/js/editor.js:4103 #: …and 4 more
+msgid "Duplicate"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:256 #: assets/js/editor.js:2388
+msgid "Duration"
+msgstr ""
+
+#: includes/elements/class-element.php:207
+msgid "Duration (s)"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:319 #: assets/js/editor.js:2835
+msgid "Dynamic Content"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:321 #: assets/js/editor.js:2835
+msgid "Dynamic Field"
+msgstr ""
+
+#: includes/elements/class-image.php:24
+msgid "Eager"
+msgstr ""
+
+#: includes/elements/class-element.php:209
+msgid "Ease"
+msgstr ""
+
+#: includes/elements/class-element.php:209
+msgid "Ease In"
+msgstr ""
+
+#: includes/elements/class-element.php:209
+msgid "Ease In Out"
+msgstr ""
+
+#: includes/elements/class-element.php:209
+msgid "Ease Out"
+msgstr ""
+
+#: includes/elements/class-element.php:209
+msgid "Easing"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:70 #: assets/js/editor.js:587
+msgid "Edit %s"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:335 #: assets/js/editor.js:3685
+msgid "Edit Component"
+msgstr ""
+
+#: canvasly-lite.php:213 #: includes/bootstrap/class-plugin.php:36 #: includes/bootstrap/class-plugin.php:64 #: includes/bootstrap/class-plugin.php:72
+msgid "Edit with Canvasly"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:341 #: assets/js/editor.js:3834
+msgid "Editing Component"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:362 #: assets/js/editor.js:6949
+msgid "Editor"
+msgstr ""
+
+#: includes/elements/class-carousel.php:40
+msgid "Effect"
+msgstr ""
+
+#: includes/elements/class-element.php:213 #: includes/elements/class-element.php:214 #: includes/elements/class-element.php:215 #: includes/elements/class-element.php:216 #: includes/elements/class-element.php:217 #: includes/elements/class-element.php:218 #: includes/elements/class-element.php:219
+msgid "Effects"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:69 #: assets/js/editor.js:586
+msgid "Element"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:235 #: assets/js/editor.js:1950
+msgid "Elements"
+msgstr ""
+
+#: includes/elements/class-element.php:218
+msgid "Ellipse"
+msgstr ""
+
+#: includes/elements/class-form.php:10 #: includes/elements/class-form.php:24
+msgid "Email"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:435
+msgid "Enable a local Model Context Protocol endpoint so an authenticated AI agent can read Canvasly layout documents. The agent uses the same WordPress capabilities as the administrator who created the token. Write tools are not registered."
+msgstr ""
+
+#: includes/settings/class-global-settings.php:117
+msgid "Enable extra devices and set the max-width (or min-width for Widescreen) used by responsive CSS. The canvas width is the editor preview."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:60 #: assets/js/editor.js:521
+msgid "Enable extra devices and set the viewport widths used by responsive CSS and the editor canvas."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:440
+msgid "Enable MCP"
+msgstr ""
+
+#: includes/settings/class-global-settings.php:119
+msgid "Enabled"
+msgstr ""
+
+#: includes/elements/class-container.php:28 #: includes/elements/class-container.php:29 #: includes/elements/class-element.php:190 #: includes/elements/class-element.php:191 #: includes/elements/class-image.php:15 #: includes/elements/class-nested_tabs.php:35 #: includes/elements/class-tabs.php:28 #: includes/i18n/class-i18n.php:119 #: assets/js/editor.js:1218
+msgid "End"
+msgstr ""
+
+#: includes/elements/class-element.php:205
+msgid "Entrance Animation"
+msgstr ""
+
+#: includes/elements/class-element.php:217
+msgid "Exclusion"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:342 #: assets/js/editor.js:3843
+msgid "Exit Component"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:214 #: assets/js/editor.js:1845
+msgid "Exit to WordPress Dashboard"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:297 #: assets/js/editor.js:2690 #: assets/js/editor.js:2906 #: assets/js/editor.js:4015 #: assets/js/editor.js:6949
+msgid "Export"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:169 #: assets/js/editor.js:1553 #: assets/js/editor.js:2877 #: assets/js/editor.js:3873
+msgid "Export Design System"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:303 #: assets/js/editor.js:2700 #: assets/js/editor.js:6919
+msgid "Export failed."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:440
+msgid "Expose read-only layout tools at"
+msgstr ""
+
+#: includes/elements/class-button.php:16
+msgid "Extra Large"
+msgstr ""
+
+#: includes/elements/class-button.php:16
+msgid "Extra Small"
+msgstr ""
+
+#: includes/elements/class-carousel.php:40 #: includes/elements/class-element.php:110 #: includes/elements/class-element.php:205
+msgid "Fade"
+msgstr ""
+
+#: includes/elements/class-accordion.php:36 #: includes/elements/class-nested_accordion.php:39
+msgid "FAQ Schema"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:452 #: assets/js/editor.js:10655
+msgid "Favicon"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:151 #: assets/js/editor.js:1477 #: assets/js/editor.js:3092
+msgid "Favorite"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:149 #: assets/js/editor.js:1477 #: assets/js/editor.js:3090
+msgid "Favorites"
+msgstr ""
+
+#: includes/elements/class-price_table.php:21
+msgid "Features"
+msgstr ""
+
+#: includes/elements/class-image.php:26
+msgid "Fetch Priority"
+msgstr ""
+
+#: includes/elements/class-form.php:19
+msgid "Fields"
+msgstr ""
+
+#: includes/elements/class-image.php:30
+msgid "Fill"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:314 #: assets/js/editor.js:2825 #: assets/js/editor.js:3098
+msgid "Filter"
+msgstr ""
+
+#: includes/elements/class-accordion.php:35 #: includes/elements/class-nested_accordion.php:38
+msgid "First Item Opened"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:128 #: assets/js/editor.js:1218
+msgid "Fit"
+msgstr ""
+
+#: includes/elements/class-element.php:176
+msgid "Fixed"
+msgstr ""
+
+#: includes/elements/class-container.php:25 #: includes/elements/class-element.php:184
+msgid "Flex"
+msgstr ""
+
+#: includes/elements/class-element.php:189
+msgid "Flex Basis"
+msgstr ""
+
+#: includes/elements/class-element.php:187
+msgid "Flex Grow"
+msgstr ""
+
+#: includes/elements/class-element.php:184 #: includes/elements/class-element.php:185 #: includes/elements/class-element.php:186 #: includes/elements/class-element.php:187 #: includes/elements/class-element.php:188 #: includes/elements/class-element.php:189 #: includes/elements/class-element.php:190 #: includes/elements/class-element.php:191
+msgid "Flex Item"
+msgstr ""
+
+#: includes/elements/class-element.php:188
+msgid "Flex Shrink"
+msgstr ""
+
+#: includes/elements/class-container.php:63
+msgid "Flip Bottom Shape"
+msgstr ""
+
+#: includes/elements/class-flip_box.php:3
+msgid "Flip Box"
+msgstr ""
+
+#: includes/elements/class-container.php:57
+msgid "Flip Top Shape"
+msgstr ""
+
+#: includes/elements/class-element.php:110
+msgid "Float"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:437 #: assets/js/editor.js:10319
+msgid "Focus"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:438 #: assets/js/editor.js:10319
+msgid "Focus Background"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:439 #: assets/js/editor.js:10319
+msgid "Focus Border Color"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:440 #: assets/js/editor.js:10319
+msgid "Focus Shadow"
+msgstr ""
+
+#: includes/elements/class-element.php:243 #: includes/elements/class-heading.php:20 #: includes/elements/class-tinymce_text_editor.php:38 #: includes/i18n/class-i18n.php:273 #: assets/js/editor.js:2567 #: assets/js/editor.js:2825 #: assets/js/editor.js:8730 #: assets/js/editor.js:9784 #: assets/js/editor.js:10246
+msgid "Font Family"
+msgstr ""
+
+#: includes/elements/class-element.php:244 #: includes/elements/class-tinymce_text_editor.php:39 #: includes/i18n/class-i18n.php:274 #: assets/js/editor.js:2567
+msgid "Font Size"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:308 #: assets/js/editor.js:2825 #: assets/js/editor.js:3098
+msgid "Font Style"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:307 #: assets/js/editor.js:2825 #: assets/js/editor.js:3098
+msgid "Font Weight"
+msgstr ""
+
+#: includes/elements/class-container.php:35
+msgid "footer"
+msgstr ""
+
+#: includes/elements/class-form.php:4 #: includes/elements/class-form.php:16
+msgid "Form"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:433 #: assets/js/editor.js:10319
+msgid "Form Fields"
+msgstr ""
+
+#: includes/elements/class-icon.php:12
+msgid "Framed"
+msgstr ""
+
+#: includes/elements/class-flip_box.php:3
+msgid "Front"
+msgstr ""
+
+#: includes/elements/class-flip_box.php:3
+msgid "Front content"
+msgstr ""
+
+#: includes/elements/class-carousel.php:26 #: includes/elements/class-testimonial.php:28
+msgid "Full"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:182 #: assets/js/editor.js:1606
+msgid "Full Width"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:459 #: includes/i18n/class-i18n.php:479 #: assets/js/editor.js:10663 #: assets/js/frontend.js:99
+msgid "Fullscreen"
+msgstr ""
+
+#: includes/elements/class-gallery.php:9 #: includes/i18n/class-i18n.php:96 #: assets/js/editor.js:954
+msgid "Gallery"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:242 #: assets/js/editor.js:2033 #: assets/js/editor.js:8047
+msgid "Gallery %s"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:199 #: assets/js/editor.js:1790 #: assets/js/editor.js:7564 #: assets/js/editor.js:8111
+msgid "Gallery 1"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:258 #: assets/js/editor.js:2522
+msgid "Gallery name"
+msgstr ""
+
+#: includes/elements/class-container.php:30 #: includes/elements/class-social.php:58
+msgid "Gap"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:447
+msgid "Generate token"
+msgstr ""
+
+#: includes/elements/class-element.php:237 #: includes/i18n/class-i18n.php:170 #: includes/settings/class-global-settings.php:145 #: assets/js/editor.js:1576 #: assets/js/editor.js:2388
+msgid "Global Classes"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:333 #: assets/js/editor.js:3596
+msgid "Global Classes & CSS"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:332 #: assets/js/editor.js:3565
+msgid "Global Classes 2.0"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:395 #: assets/js/editor.js:9605 #: assets/js/editor.js:9641 #: assets/js/editor.js:9775 #: assets/js/editor.js:10241 #: assets/js/editor.js:10388 #: assets/js/editor.js:10759
+msgid "Global Colors"
+msgstr ""
+
+#: includes/settings/class-global-settings.php:107
+msgid "Global colors"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:400 #: assets/js/editor.js:9754
+msgid "Global colors and typography presets are stored as CSS variables and can be bound from any color or typography control."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:396 #: assets/js/editor.js:9641 #: assets/js/editor.js:9727 #: assets/js/editor.js:9728 #: assets/js/editor.js:9775
+msgid "Global Typography"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:167 #: assets/js/editor.js:1553
+msgid "Global Variables"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:334 #: assets/js/editor.js:3610
+msgid "Global Variables 2.0"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:346 #: assets/js/editor.js:4050
+msgid "Global Variables 2.1"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:473 #: assets/js/frontend.js:24
+msgid "Go to slide %s"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:46
+msgid "Google Gemini"
+msgstr ""
+
+#: includes/elements/class-google_maps.php:3
+msgid "Google Maps"
+msgstr ""
+
+#: includes/elements/class-element.php:226 #: includes/i18n/class-i18n.php:281 #: assets/js/editor.js:2568 #: assets/js/editor.js:8730
+msgid "Gradient"
+msgstr ""
+
+#: includes/elements/class-container.php:25 #: includes/elements/class-element.php:184 #: includes/elements/class-grid.php:5 #: includes/i18n/class-i18n.php:125 #: assets/js/editor.js:1218
+msgid "Grid"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:263 #: assets/js/editor.js:2561
+msgid "Grid Child"
+msgstr ""
+
+#: includes/elements/class-element.php:192 #: includes/elements/class-element.php:193 #: includes/elements/class-element.php:194 #: includes/elements/class-element.php:195
+msgid "Grid Item"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:287 #: assets/js/editor.js:2586
+msgid "Grid Layout"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:80
+msgid "Groq"
+msgstr ""
+
+#: includes/elements/class-element.php:110 #: includes/i18n/class-i18n.php:129 #: assets/js/editor.js:1218
+msgid "Grow"
+msgstr ""
+
+#: includes/elements/class-element.php:111
+msgid "H1"
+msgstr ""
+
+#: includes/elements/class-element.php:111
+msgid "H2"
+msgstr ""
+
+#: includes/elements/class-element.php:111
+msgid "H3"
+msgstr ""
+
+#: includes/elements/class-element.php:111
+msgid "H4"
+msgstr ""
+
+#: includes/elements/class-element.php:111
+msgid "H5"
+msgstr ""
+
+#: includes/elements/class-element.php:111
+msgid "H6"
+msgstr ""
+
+#: includes/elements/class-element.php:217
+msgid "Hard Light"
+msgstr ""
+
+#: includes/elements/class-container.php:35
+msgid "header"
+msgstr ""
+
+#: includes/elements/class-heading.php:5
+msgid "Heading"
+msgstr ""
+
+#: includes/settings/class-global-settings.php:113
+msgid "Heading Font"
+msgstr ""
+
+#: includes/elements/class-carousel.php:43 #: includes/elements/class-element.php:170 #: includes/elements/class-image.php:29 #: includes/elements/class-tinymce_text_editor.php:34
+msgid "Height"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:210 #: assets/js/editor.js:1843 #: assets/js/editor.js:1894
+msgid "Help Center"
+msgstr ""
+
+#: includes/elements/class-element.php:53
+msgid "Help text"
+msgstr ""
+
+#: includes/elements/class-element.php:218
+msgid "Hexagon"
+msgstr ""
+
+#: includes/elements/class-container.php:34 #: includes/elements/class-element.php:182 #: includes/elements/class-element.php:185
+msgid "Hidden"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:54 #: assets/js/editor.js:471
+msgid "Hide On"
+msgstr ""
+
+#: includes/elements/class-element.php:197
+msgid "Hide On Desktop"
+msgstr ""
+
+#: includes/elements/class-element.php:198
+msgid "Hide On Laptop"
+msgstr ""
+
+#: includes/elements/class-element.php:202
+msgid "Hide On Mobile"
+msgstr ""
+
+#: includes/elements/class-element.php:201
+msgid "Hide On Mobile Extra"
+msgstr ""
+
+#: includes/elements/class-element.php:200
+msgid "Hide On Tablet"
+msgstr ""
+
+#: includes/elements/class-element.php:199
+msgid "Hide On Tablet Extra"
+msgstr ""
+
+#: includes/elements/class-element.php:203
+msgid "Hide On Widescreen"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:446 #: assets/js/editor.js:10648
+msgid "Hides matching theme title elements on Canvasly pages."
+msgstr ""
+
+#: includes/elements/class-image.php:26
+msgid "High"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:227 #: assets/js/editor.js:1950 #: assets/js/editor.js:6949
+msgid "History"
+msgstr ""
+
+#: includes/elements/class-form.php:33
+msgid "Honeypot"
+msgstr ""
+
+#: includes/elements/class-nested_tabs.php:34 #: includes/elements/class-tabs.php:27
+msgid "Horizontal"
+msgstr ""
+
+#: includes/elements/class-element.php:206 #: includes/i18n/class-i18n.php:417 #: assets/js/editor.js:10278
+msgid "Hover"
+msgstr ""
+
+#: includes/elements/class-button.php:22 #: includes/elements/class-icon.php:17 #: includes/elements/class-image.php:23 #: includes/elements/class-social.php:51
+msgid "Hover Animation"
+msgstr ""
+
+#: includes/elements/class-button.php:25 #: includes/elements/class-social.php:54 #: includes/i18n/class-i18n.php:419 #: assets/js/editor.js:10280
+msgid "Hover Background"
+msgstr ""
+
+#: includes/elements/class-button.php:27 #: includes/i18n/class-i18n.php:420 #: assets/js/editor.js:10280
+msgid "Hover Border Color"
+msgstr ""
+
+#: includes/elements/class-heading.php:19 #: includes/elements/class-icon.php:21
+msgid "Hover Color"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:423 #: assets/js/editor.js:10280
+msgid "Hover CSS Filter"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:424 #: assets/js/editor.js:10280
+msgid "Hover Decoration"
+msgstr ""
+
+#: includes/elements/class-social.php:55
+msgid "Hover Icon Color"
+msgstr ""
+
+#: includes/elements/class-image.php:33 #: includes/i18n/class-i18n.php:422 #: assets/js/editor.js:10280
+msgid "Hover Opacity"
+msgstr ""
+
+#: includes/elements/class-icon.php:22
+msgid "Hover Secondary"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:421 #: assets/js/editor.js:10280
+msgid "Hover Shadow"
+msgstr ""
+
+#: includes/elements/class-button.php:26 #: includes/i18n/class-i18n.php:418 #: assets/js/editor.js:10280
+msgid "Hover Text Color"
+msgstr ""
+
+#: includes/elements/class-html.php:4
+msgid "HTML"
+msgstr ""
+
+#: includes/elements/class-form.php:23
+msgid "HTML name attribute. Defaults to a slug of the label."
+msgstr ""
+
+#: includes/elements/class-container.php:35 #: includes/elements/class-heading.php:13
+msgid "HTML Tag"
+msgstr ""
+
+#: includes/elements/class-accordion.php:22 #: includes/elements/class-accordion.php:32 #: includes/elements/class-button.php:18 #: includes/elements/class-icon.php:5 #: includes/elements/class-icon.php:9 #: includes/elements/class-icon.php:11 #: includes/elements/class-icon_list.php:25 #: includes/elements/class-nested_accordion.php:26 #: includes/elements/class-nested_accordion.php:35 #: includes/elements/class-price_table.php:25 #: includes/elements/class-social.php:36 #: includes/elements/class-social.php:43
+msgid "Icon"
+msgstr ""
+
+#: includes/elements/class-icon.php:25
+msgid "Icon Border"
+msgstr ""
+
+#: includes/elements/class-icon_box.php:6
+msgid "Icon Box"
+msgstr ""
+
+#: includes/elements/class-icon_list.php:36 #: includes/elements/class-social.php:53
+msgid "Icon Color"
+msgstr ""
+
+#: includes/elements/class-icon_list.php:37
+msgid "Icon Hover"
+msgstr ""
+
+#: includes/elements/class-icon_list.php:8 #: includes/elements/class-icon_list.php:19
+msgid "Icon List"
+msgstr ""
+
+#: includes/elements/class-icon.php:24
+msgid "Icon Padding"
+msgstr ""
+
+#: includes/elements/class-accordion.php:34 #: includes/elements/class-button.php:19 #: includes/elements/class-nested_accordion.php:37
+msgid "Icon Position"
+msgstr ""
+
+#: includes/elements/class-icon.php:26
+msgid "Icon Radius"
+msgstr ""
+
+#: includes/elements/class-icon_list.php:35
+msgid "Icon Size"
+msgstr ""
+
+#: includes/elements/class-button.php:20
+msgid "Icon Spacing"
+msgstr ""
+
+#: includes/elements/class-social.php:38 #: includes/i18n/class-i18n.php:228 #: assets/js/editor.js:1950 #: assets/js/editor.js:6949
+msgid "Icons"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:155 #: assets/js/editor.js:1500
+msgid "ID"
+msgstr ""
+
+#: includes/elements/class-carousel.php:17 #: includes/elements/class-image.php:4 #: includes/elements/class-image.php:8 #: includes/elements/class-testimonial.php:14 #: includes/elements/class-testimonial.php:20
+msgid "Image"
+msgstr ""
+
+#: includes/elements/class-image_box.php:5
+msgid "Image Box"
+msgstr ""
+
+#: includes/elements/class-carousel.php:8 #: includes/elements/class-carousel.php:12
+msgid "Image Carousel"
+msgstr ""
+
+#: includes/elements/class-testimonial.php:29
+msgid "Image Position"
+msgstr ""
+
+#: includes/elements/class-carousel.php:26 #: includes/elements/class-image.php:13 #: includes/elements/class-testimonial.php:28
+msgid "Image Size"
+msgstr ""
+
+#: includes/elements/class-carousel.php:29
+msgid "Image Stretch"
+msgstr ""
+
+#: includes/elements/class-carousel.php:18 #: includes/elements/class-image.php:12 #: includes/elements/class-testimonial.php:21
+msgid "Image URL"
+msgstr ""
+
+#: includes/elements/class-carousel.php:12 #: includes/elements/class-carousel.php:24 #: includes/i18n/class-i18n.php:260 #: assets/js/editor.js:2547 #: assets/js/editor.js:10318
+msgid "Images"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:353 #: assets/js/editor.js:4260
+msgid "Implicit Column Size"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:359 #: assets/js/editor.js:4262
+msgid "Implicit Columns"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:354 #: assets/js/editor.js:4260
+msgid "Implicit Row Size"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:360 #: assets/js/editor.js:4262
+msgid "Implicit Rows"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:298 #: assets/js/editor.js:2690 #: assets/js/editor.js:4015 #: assets/js/editor.js:6949
+msgid "Import"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:325 #: assets/js/editor.js:2877 #: assets/js/editor.js:3873
+msgid "Import Design System"
+msgstr ""
+
+#: includes/elements/class-element.php:206
+msgid "In Viewport"
+msgstr ""
+
+#: includes/api/class-mcp-host.php:181
+msgid "Include element, component, and class catalogs. Default true."
+msgstr ""
+
+#: includes/elements/class-carousel.php:39
+msgid "Infinite Loop"
+msgstr ""
+
+#: includes/elements/class-button.php:15
+msgid "Info"
+msgstr ""
+
+#: includes/elements/class-form.php:34 #: includes/elements/class-icon_list.php:30
+msgid "Inline"
+msgstr ""
+
+#: includes/elements/class-element.php:184
+msgid "Inline Block"
+msgstr ""
+
+#: includes/elements/class-inner_section.php:7
+msgid "Inner Section"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:160 #: assets/js/editor.js:1521 #: assets/js/editor.js:1546 #: assets/js/editor.js:2906 #: assets/js/editor.js:3728
+msgid "Insert"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:138 #: assets/js/editor.js:1437
+msgid "Inset"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:253 #: assets/js/editor.js:2388
+msgid "Interactions"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:305 #: assets/js/editor.js:2737 #: assets/js/editor.js:6938
+msgid "Invalid Canvasly document."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:381
+msgid "It will not be shown again."
+msgstr ""
+
+#: includes/elements/class-element.php:246
+msgid "Italic"
+msgstr ""
+
+#: includes/elements/class-nested_accordion.php:70
+msgid "Item %d"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:385 #: assets/js/editor.js:9231 #: assets/js/editor.js:9298
+msgid "Item %s"
+msgstr ""
+
+#: includes/elements/class-accordion.php:24 #: includes/elements/class-icon_list.php:21 #: includes/elements/class-nested_accordion.php:28
+msgid "Items"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:127 #: assets/js/editor.js:1218
+msgid "Justified"
+msgstr ""
+
+#: includes/elements/class-container.php:28 #: includes/elements/class-element.php:109
+msgid "Justify"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:357 #: assets/js/editor.js:4261
+msgid "Justify Items"
+msgstr ""
+
+#: includes/elements/class-element.php:191 #: includes/i18n/class-i18n.php:269 #: assets/js/editor.js:2561
+msgid "Justify Self"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:205 #: assets/js/editor.js:1840
+msgid "Keep private notes for this page."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:415
+msgid "Key saved — enter a new key to replace it"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:208 #: assets/js/editor.js:1842 #: assets/js/editor.js:1890 #: assets/js/editor.js:6949 #: assets/js/editor.js:7153
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: includes/elements/class-element.php:47 #: includes/elements/class-form.php:22
+msgid "Label"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:435 #: assets/js/editor.js:10319
+msgid "Label Color"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:436 #: assets/js/editor.js:10319
+msgid "Label Spacing"
+msgstr ""
+
+#: includes/settings/class-breakpoints.php:65
+msgid "Laptop"
+msgstr ""
+
+#: includes/elements/class-button.php:16 #: includes/elements/class-carousel.php:26 #: includes/elements/class-heading.php:16 #: includes/elements/class-testimonial.php:28
+msgid "Large"
+msgstr ""
+
+#: includes/elements/class-container.php:20 #: includes/elements/class-container.php:25 #: includes/elements/class-element.php:168 #: includes/elements/class-element.php:169 #: includes/elements/class-element.php:170 #: includes/elements/class-element.php:171 #: includes/elements/class-form.php:34 #: includes/elements/class-icon_list.php:30 #: includes/elements/class-tinymce_text_editor.php:26 #: includes/i18n/class-i18n.php:243 #: assets/js/editor.js:2384 #: assets/js/editor.js:9775 #: …and 1 more
+msgid "Layout"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:139 #: assets/js/editor.js:1441
+msgid "Layout & Effects"
+msgstr ""
+
+#: includes/api/class-layout-schema.php:81 #: includes/api/class-layout-schema.php:90 #: includes/api/class-mcp-host.php:306
+msgid "Layout document not found."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:402 #: assets/js/editor.js:9756
+msgid "Layout, site identity, lightbox and background apply across the site. Title, tagline, logo and favicon write to WordPress settings."
+msgstr ""
+
+#: includes/elements/class-image.php:24
+msgid "Lazy"
+msgstr ""
+
+#: includes/elements/class-carousel.php:34 #: includes/elements/class-image.php:24
+msgid "Lazy Load"
+msgstr ""
+
+#: includes/elements/class-form.php:32
+msgid "Leave empty to use the site admin email"
+msgstr ""
+
+#: includes/elements/class-accordion.php:34 #: includes/elements/class-element.php:108 #: includes/elements/class-element.php:109 #: includes/elements/class-element.php:180 #: includes/elements/class-image.php:31 #: includes/elements/class-nested_accordion.php:37 #: includes/i18n/class-i18n.php:112 #: assets/js/editor.js:1218 #: assets/js/editor.js:1433 #: assets/js/editor.js:2365
+msgid "Left"
+msgstr ""
+
+#: includes/elements/class-carousel.php:42
+msgid "Left to Right"
+msgstr ""
+
+#: includes/elements/class-element.php:250 #: includes/elements/class-heading.php:24 #: includes/elements/class-tinymce_text_editor.php:42 #: includes/i18n/class-i18n.php:280 #: assets/js/editor.js:2567 #: assets/js/editor.js:9784 #: assets/js/editor.js:10250
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/elements/class-element.php:110
+msgid "Lift"
+msgstr ""
+
+#: includes/elements/class-carousel.php:32 #: includes/elements/class-image.php:19 #: includes/i18n/class-i18n.php:454 #: assets/js/editor.js:10658
+msgid "Lightbox"
+msgstr ""
+
+#: includes/elements/class-element.php:217
+msgid "Lighten"
+msgstr ""
+
+#: includes/elements/class-element.php:249 #: includes/elements/class-heading.php:23 #: includes/elements/class-tinymce_text_editor.php:41 #: includes/i18n/class-i18n.php:279 #: assets/js/editor.js:2567 #: assets/js/editor.js:9784 #: assets/js/editor.js:10249
+msgid "Line Height"
+msgstr ""
+
+#: includes/elements/class-element.php:248
+msgid "Line Through"
+msgstr ""
+
+#: includes/elements/class-element.php:209
+msgid "Linear"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:132 #: assets/js/editor.js:1400
+msgid "linear-gradient(...)"
+msgstr ""
+
+#: includes/elements/class-element.php:226
+msgid "linear-gradient(90deg,#000,#fff)"
+msgstr ""
+
+#: includes/elements/class-button.php:13 #: includes/elements/class-carousel.php:21 #: includes/elements/class-carousel.php:31 #: includes/elements/class-container.php:20 #: includes/elements/class-container.php:36 #: includes/elements/class-heading.php:14 #: includes/elements/class-icon.php:14 #: includes/elements/class-icon_list.php:26 #: includes/elements/class-image.php:16 #: includes/elements/class-testimonial.php:24
+msgid "Link"
+msgstr ""
+
+#: includes/elements/class-link_in_bio.php:5
+msgid "Link in Bio"
+msgstr ""
+
+#: includes/elements/class-container.php:37 #: includes/elements/class-heading.php:15 #: includes/elements/class-icon.php:15 #: includes/elements/class-icon_list.php:31 #: includes/elements/class-image.php:18 #: includes/elements/class-testimonial.php:25
+msgid "Link Target"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:329 #: assets/js/editor.js:3260
+msgid "Link URL"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:427 #: assets/js/editor.js:10302
+msgid "Links"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:374 #: assets/js/editor.js:7871
+msgid "Links to %s"
+msgstr ""
+
+#: includes/elements/class-icon_list.php:19
+msgid "List"
+msgstr ""
+
+#: includes/api/class-mcp-host.php:154
+msgid "List Canvasly layout documents this user can edit."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:301 #: assets/js/editor.js:2690
+msgid "Lock"
+msgstr ""
+
+#: includes/elements/class-login.php:3
+msgid "Log In"
+msgstr ""
+
+#: includes/elements/class-login.php:3
+msgid "Login"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:451 #: assets/js/editor.js:10654
+msgid "Logo"
+msgstr ""
+
+#: includes/bootstrap/class-plugin.php:48 #: includes/bootstrap/class-plugin.php:64
+msgid "Canvasly"
+msgstr ""
+
+#: includes/editor/class-editor.php:129
+msgid "Canvasly %s"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:213 #: assets/js/editor.js:1844
+msgid "Canvasly account and product information."
+msgstr ""
+
+#: includes/bootstrap/class-plugin.php:67
+msgid "Canvasly Components"
+msgstr ""
+
+#: includes/settings/class-global-settings.php:106
+msgid "Canvasly Design System"
+msgstr ""
+
+#: includes/editor/class-editor.php:127
+msgid "Canvasly Draft"
+msgstr ""
+
+#: includes/api/class-rest.php:48
+msgid "Canvasly Form Submission"
+msgstr ""
+
+#: includes/bootstrap/class-plugin.php:68
+msgid "Canvasly Global Classes"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:328 #: assets/js/editor.js:3058
+msgid "Canvasly Icon Library"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:153 #: assets/js/editor.js:1500
+msgid "Canvasly Icon Manager"
+msgstr ""
+
+#: includes/api/class-capabilities.php:54 #: includes/api/class-capabilities.php:74 #: includes/editor/class-editor.php:134
+msgid "Canvasly is not enabled for this post type."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:238 #: assets/js/editor.js:1950
+msgid "Canvasly isolated canvas"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:216 #: assets/js/editor.js:1847 #: assets/js/editor.js:1950 #: assets/js/editor.js:6984
+msgid "Canvasly menu"
+msgstr ""
+
+#: includes/api/class-rest.php:37 #: includes/editor/class-editor.php:127
+msgid "Canvasly Page"
+msgstr ""
+
+#: includes/editor/class-editor.php:128
+msgid "Canvasly Post"
+msgstr ""
+
+#: includes/bootstrap/class-plugin.php:66
+msgid "Canvasly Templates"
+msgstr ""
+
+#: includes/elements/class-container.php:51
+msgid "Loop Video"
+msgstr ""
+
+#: includes/elements/class-image.php:26
+msgid "Low"
+msgstr ""
+
+#: includes/elements/class-element.php:247
+msgid "Lowercase"
+msgstr ""
+
+#: includes/elements/class-container.php:35
+msgid "main"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:399 #: assets/js/editor.js:9641 #: assets/js/editor.js:10388 #: assets/js/editor.js:10759
+msgid "Manage Globals"
+msgstr ""
+
+#: includes/settings/class-global-settings.php:145
+msgid "Manage reusable classes from the Canvasly editor. Current classes: "
+msgstr ""
+
+#: includes/elements/class-google_maps.php:3 #: includes/i18n/class-i18n.php:478
+msgid "Map"
+msgstr ""
+
+#: includes/elements/class-container.php:43 #: includes/elements/class-element.php:173 #: includes/i18n/class-i18n.php:245 #: assets/js/editor.js:2388 #: assets/js/editor.js:2566
+msgid "Margin"
+msgstr ""
+
+#: includes/elements/class-element.php:218 #: includes/i18n/class-i18n.php:380 #: assets/js/editor.js:8774
+msgid "Mask"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:126 #: assets/js/editor.js:1218
+msgid "Masonry"
+msgstr ""
+
+#: includes/elements/class-container.php:40 #: includes/elements/class-element.php:169 #: includes/elements/class-image.php:28 #: includes/elements/class-tinymce_text_editor.php:33
+msgid "Max Width"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:58 #: includes/settings/class-global-settings.php:123 #: assets/js/editor.js:511
+msgid "max-width"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:435
+msgid "MCP host"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:437
+msgid "MCP is enabled, but no agent token exists yet. Generate a token below or the endpoint will keep returning 403."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:537
+msgid "MCP token generated. Copy it from the notice above."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:545
+msgid "MCP token revoked. Agents using the old token will be denied."
+msgstr ""
+
+#: includes/elements/class-carousel.php:31 #: includes/elements/class-image.php:16 #: includes/i18n/class-i18n.php:116 #: assets/js/editor.js:1218
+msgid "Media File"
+msgstr ""
+
+#: includes/api/class-rest.php:42
+msgid "Media item not found"
+msgstr ""
+
+#: includes/elements/class-button.php:16 #: includes/elements/class-carousel.php:26 #: includes/elements/class-heading.php:16 #: includes/elements/class-testimonial.php:28
+msgid "Medium"
+msgstr ""
+
+#: includes/elements/class-carousel.php:26
+msgid "Medium Large"
+msgstr ""
+
+#: includes/elements/class-menu_anchor.php:3
+msgid "Menu Anchor"
+msgstr ""
+
+#: includes/elements/class-form.php:11
+msgid "Message"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:122 #: assets/js/editor.js:1218
+msgid "Middle"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:290 #: assets/js/editor.js:2586
+msgid "Min Column Size"
+msgstr ""
+
+#: includes/elements/class-container.php:39 #: includes/elements/class-element.php:171 #: includes/elements/class-tinymce_text_editor.php:35
+msgid "Min Height"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:56 #: includes/settings/class-global-settings.php:123 #: assets/js/editor.js:511
+msgid "min-width"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:352 #: assets/js/editor.js:4260
+msgid "Minimum Auto Row Size"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:351 #: assets/js/editor.js:4260
+msgid "Minimum Column Size"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:88
+msgid "Mistral"
+msgstr ""
+
+#: includes/settings/class-breakpoints.php:29
+msgid "Mobile"
+msgstr ""
+
+#: includes/settings/class-breakpoints.php:38
+msgid "Mobile Extra"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:406
+msgid "Model"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:375 #: assets/js/editor.js:8713
+msgid "More"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:370 #: assets/js/editor.js:6984
+msgid "More editor tools"
+msgstr ""
+
+#: includes/elements/class-element.php:205 #: includes/elements/class-element.php:206 #: includes/elements/class-element.php:207 #: includes/elements/class-element.php:208 #: includes/elements/class-element.php:209 #: includes/elements/class-element.php:210 #: includes/elements/class-element.php:211
+msgid "Motion Effects"
+msgstr ""
+
+#: includes/elements/class-element.php:219
+msgid "Move"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:105 #: assets/js/editor.js:1208
+msgid "Move down"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:104 #: assets/js/editor.js:1208
+msgid "Move up"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:107 #: assets/js/editor.js:1218
+msgid "Multiple"
+msgstr ""
+
+#: includes/elements/class-element.php:217
+msgid "Multiply"
+msgstr ""
+
+#: includes/elements/class-link_in_bio.php:6 #: includes/elements/class-link_in_bio.php:8
+msgid "My Links"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:212 #: assets/js/editor.js:1844 #: assets/js/editor.js:1898
+msgid "My Canvasly"
+msgstr ""
+
+#: includes/elements/class-progress.php:7
+msgid "My Skill"
+msgstr ""
+
+#: includes/elements/class-form.php:9 #: includes/elements/class-form.php:23 #: includes/elements/class-testimonial.php:14 #: includes/elements/class-testimonial.php:22
+msgid "Name"
+msgstr ""
+
+#: includes/elements/class-testimonial.php:31
+msgid "Name HTML Tag"
+msgstr ""
+
+#: includes/elements/class-container.php:35
+msgid "nav"
+msgstr ""
+
+#: includes/elements/class-carousel.php:30
+msgid "Navigation"
+msgstr ""
+
+#: includes/elements/class-nested_tabs.php:37 #: includes/elements/class-tabs.php:30
+msgid "Navigation Width"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:240 #: assets/js/editor.js:1950
+msgid "Navigator"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:239 #: assets/js/editor.js:1950
+msgid "Navigator / Settings"
+msgstr ""
+
+#: includes/elements/class-nested_accordion.php:9
+msgid "Nested Accordion"
+msgstr ""
+
+#: includes/elements/class-nested_tabs.php:9
+msgid "Nested Tabs"
+msgstr ""
+
+#: includes/elements/class-nested_toggle.php:6
+msgid "Nested Toggle"
+msgstr ""
+
+#: includes/elements/class-social.php:41
+msgid "Network"
+msgstr ""
+
+#: includes/elements/class-element.php:107
+msgid "New Window"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:472 #: assets/js/frontend.js:23
+msgid "Next slide"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:165 #: assets/js/editor.js:1546
+msgid "No components saved yet."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:405 #: assets/js/editor.js:9767
+msgid "No custom colors yet."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:409 #: assets/js/editor.js:9773
+msgid "No custom typography yet."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:148 #: assets/js/editor.js:1474 #: assets/js/editor.js:3087
+msgid "No elements found."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:397 #: assets/js/editor.js:9641 #: assets/js/editor.js:10388 #: assets/js/editor.js:10759
+msgid "No globals yet."
+msgstr ""
+
+#: includes/editor/class-editor.php:122
+msgid "No post types are enabled for Canvasly."
+msgstr ""
+
+#: includes/elements/class-element.php:224
+msgid "No Repeat"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:177 #: assets/js/editor.js:1592
+msgid "No revisions yet."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:161 #: assets/js/editor.js:1522 #: assets/js/editor.js:2906
+msgid "No templates saved yet."
+msgstr ""
+
+#: includes/elements/class-container.php:27
+msgid "No Wrap"
+msgstr ""
+
+#: includes/elements/class-button.php:31 #: includes/elements/class-carousel.php:30 #: includes/elements/class-carousel.php:31 #: includes/elements/class-carousel.php:33 #: includes/elements/class-element.php:110 #: includes/elements/class-element.php:184 #: includes/elements/class-element.php:205 #: includes/elements/class-element.php:218 #: includes/elements/class-element.php:229 #: includes/elements/class-element.php:247 #: includes/elements/class-element.php:248 #: includes/elements/class-image.php:16 #: …and 6 more
+msgid "None"
+msgstr ""
+
+#: includes/elements/class-element.php:217 #: includes/elements/class-element.php:246
+msgid "Normal"
+msgstr ""
+
+#: includes/elements/class-element.php:219
+msgid "Not Allowed"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:204 #: assets/js/editor.js:1840 #: assets/js/editor.js:1871
+msgid "Notes"
+msgstr ""
+
+#: includes/elements/class-image.php:30
+msgid "Object Fit"
+msgstr ""
+
+#: includes/elements/class-image.php:31
+msgid "Object Position"
+msgstr ""
+
+#: includes/elements/class-element.php:246
+msgid "Oblique"
+msgstr ""
+
+#: includes/elements/class-social.php:48
+msgid "Official"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:377 #: assets/js/editor.js:8773
+msgid "Offset"
+msgstr ""
+
+#: includes/api/class-mcp-host.php:180
+msgid "Omit default settings from the document tree. Default true."
+msgstr ""
+
+#: includes/elements/class-element.php:240
+msgid "One attribute per line, as name=value. Only aria-*, data-*, title, rel and download are kept."
+msgstr ""
+
+#: includes/elements/class-form.php:27
+msgid "One option per line."
+msgstr ""
+
+#: includes/api/class-rest.php:28
+msgid "Only administrators can change global settings"
+msgstr ""
+
+#: includes/design/class-icon-library.php:20
+msgid "Only administrators can manage custom icons."
+msgstr ""
+
+#: includes/design/class-global-classes.php:22
+msgid "Only administrators can manage global classes."
+msgstr ""
+
+#: includes/elements/class-element.php:213 #: includes/elements/class-image.php:32 #: includes/i18n/class-i18n.php:431 #: assets/js/editor.js:10318
+msgid "Opacity"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:181 #: assets/js/editor.js:1599
+msgid "Open"
+msgstr ""
+
+#: includes/elements/class-button.php:14 #: includes/elements/class-social.php:46
+msgid "Open In"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:203 #: assets/js/editor.js:1839
+msgid "Open Canvasly theme-building tools."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:30
+msgid "OpenAI"
+msgstr ""
+
+#: includes/api/class-mcp-host.php:179
+msgid "Optional post or page ID to include the active layout."
+msgstr ""
+
+#: includes/api/class-mcp-host.php:158
+msgid "Optional title search."
+msgstr ""
+
+#: includes/elements/class-form.php:27
+msgid "Options"
+msgstr ""
+
+#: includes/elements/class-element.php:186 #: includes/i18n/class-i18n.php:270 #: assets/js/editor.js:2561
+msgid "Order"
+msgstr ""
+
+#: includes/elements/class-nested_tabs.php:34 #: includes/elements/class-tabs.php:27
+msgid "Orientation"
+msgstr ""
+
+#: includes/elements/class-container.php:34 #: includes/elements/class-element.php:182 #: includes/i18n/class-i18n.php:140 #: assets/js/editor.js:1441 #: assets/js/editor.js:2388
+msgid "Overflow"
+msgstr ""
+
+#: includes/elements/class-element.php:217
+msgid "Overlay"
+msgstr ""
+
+#: includes/elements/class-container.php:44 #: includes/i18n/class-i18n.php:455 #: assets/js/editor.js:10659
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/elements/class-container.php:45
+msgid "Overlay Opacity"
+msgstr ""
+
+#: includes/elements/class-element.php:248
+msgid "Overline"
+msgstr ""
+
+#: includes/elements/class-element.php:111
+msgid "p"
+msgstr ""
+
+#: includes/elements/class-accordion.php:40 #: includes/elements/class-accordion.php:43 #: includes/elements/class-button.php:28 #: includes/elements/class-container.php:42 #: includes/elements/class-element.php:174 #: includes/elements/class-nested_accordion.php:43 #: includes/elements/class-nested_accordion.php:46 #: includes/elements/class-nested_tabs.php:42 #: includes/elements/class-nested_tabs.php:45 #: includes/elements/class-social.php:57 #: includes/elements/class-tabs.php:35 #: includes/elements/class-tabs.php:38 #: …and 4 more
+msgid "Padding"
+msgstr ""
+
+#: includes/elements/class-element.php:227
+msgid "Padding Box"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:193 #: assets/js/editor.js:1685 #: assets/js/editor.js:1950
+msgid "Page"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:190 #: assets/js/editor.js:1607
+msgid "Page custom CSS"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:184 #: assets/js/editor.js:1607 #: assets/js/editor.js:1685 #: assets/js/editor.js:6949 #: assets/js/editor.js:6984
+msgid "Page Settings"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:185 #: assets/js/editor.js:1607
+msgid "Page template"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:187 #: assets/js/editor.js:1607
+msgid "Page title"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:445 #: assets/js/editor.js:10647
+msgid "Page Title Selector"
+msgstr ""
+
+#: includes/api/class-layout-schema.php:279
+msgid "Page-level settings (title, template, body_class, page_width, custom_css)."
+msgstr ""
+
+#: includes/document/class-documents.php:199 #: includes/settings/class-global-settings.php:137
+msgid "Pages"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:382 #: assets/js/editor.js:9180 #: assets/js/editor.js:9197 #: assets/js/editor.js:9263
+msgid "Panel"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:426 #: assets/js/editor.js:10295
+msgid "Paragraph"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:428 #: assets/js/editor.js:10308
+msgid "Paragraph Spacing"
+msgstr ""
+
+#: includes/elements/class-login.php:3
+msgid "Password"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:73 #: assets/js/editor.js:590 #: assets/js/editor.js:602
+msgid "Paste"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:74 #: assets/js/editor.js:591
+msgid "Paste style"
+msgstr ""
+
+#: includes/elements/class-carousel.php:36
+msgid "Pause on Hover"
+msgstr ""
+
+#: includes/elements/class-carousel.php:37
+msgid "Pause on Interaction"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:295 #: assets/js/editor.js:2682
+msgid "Performance & Assets"
+msgstr ""
+
+#: includes/elements/class-price_table.php:20
+msgid "Period"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:64
+msgid "Perplexity"
+msgstr ""
+
+#: includes/elements/class-element.php:218
+msgid "Pill"
+msgstr ""
+
+#: includes/elements/class-form.php:26
+msgid "Placeholder"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:434 #: assets/js/editor.js:10319
+msgid "Placeholder Color"
+msgstr ""
+
+#: includes/elements/class-container.php:52
+msgid "Play Video on Mobile"
+msgstr ""
+
+#: includes/elements/class-element.php:219
+msgid "Pointer"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:31 #: includes/settings/class-ai-connection.php:39 #: includes/settings/class-ai-connection.php:47 #: includes/settings/class-ai-connection.php:55 #: includes/settings/class-ai-connection.php:65 #: includes/settings/class-ai-connection.php:73 #: includes/settings/class-ai-connection.php:81 #: includes/settings/class-ai-connection.php:89 #: includes/settings/class-ai-connection.php:97
+msgid "Popular AI"
+msgstr ""
+
+#: includes/elements/class-element.php:176 #: includes/elements/class-element.php:177 #: includes/elements/class-element.php:178 #: includes/elements/class-element.php:179 #: includes/elements/class-element.php:180 #: includes/elements/class-element.php:181 #: includes/elements/class-element.php:182 #: includes/i18n/class-i18n.php:247 #: assets/js/editor.js:2388
+msgid "Position"
+msgstr ""
+
+#: includes/api/class-mcp-host.php:168
+msgid "Post or page ID."
+msgstr ""
+
+#: includes/settings/class-global-settings.php:133
+msgid "Post Types"
+msgstr ""
+
+#: includes/document/class-documents.php:199 #: includes/settings/class-global-settings.php:137
+msgid "Posts"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:234 #: assets/js/editor.js:1950
+msgid "Preview"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:368 #: assets/js/editor.js:6984
+msgid "Preview page"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:471 #: assets/js/frontend.js:23
+msgid "Previous slide"
+msgstr ""
+
+#: includes/elements/class-price_table.php:19
+msgid "Price"
+msgstr ""
+
+#: includes/elements/class-price_table.php:4 #: includes/elements/class-price_table.php:16
+msgid "Price Table"
+msgstr ""
+
+#: includes/design/class-variables.php:46 #: includes/i18n/class-i18n.php:387 #: includes/settings/class-global-settings.php:108 #: assets/js/editor.js:9458
+msgid "Primary"
+msgstr ""
+
+#: includes/elements/class-icon.php:19
+msgid "Primary Color"
+msgstr ""
+
+#: includes/design/class-variables.php:75 #: includes/i18n/class-i18n.php:391 #: assets/js/editor.js:9483
+msgid "Primary Headline"
+msgstr ""
+
+#: includes/elements/class-progress.php:5
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:388 #: includes/settings/class-ai-connection.php:390
+msgid "Provider"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:415
+msgid "Provider API key"
+msgstr ""
+
+#: includes/elements/class-element.php:110
+msgid "Pulse"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:63 #: includes/settings/class-global-settings.php:119 #: assets/js/editor.js:522
+msgid "Query"
+msgstr ""
+
+#: includes/elements/class-image.php:38 #: includes/elements/class-social.php:60 #: includes/elements/class-testimonial.php:34 #: includes/i18n/class-i18n.php:285 #: assets/js/editor.js:2569 #: assets/js/editor.js:8730 #: assets/js/editor.js:8774
+msgid "Radius"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:109 #: assets/js/editor.js:1218
+msgid "Random"
+msgstr ""
+
+#: includes/elements/class-rating.php:5
+msgid "Rating"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:101 #: assets/js/editor.js:1169
+msgid "Rating %1$s of %2$s"
+msgstr ""
+
+#: includes/elements/class-read_more.php:3
+msgid "Read More"
+msgstr ""
+
+#: includes/api/class-mcp-host.php:164
+msgid "Read one Canvasly layout document by WordPress post ID."
+msgstr ""
+
+#: includes/api/class-mcp-host.php:175
+msgid "Read the LLM layout schema: registered elements, saved components, CSS global classes, and optionally the active document for a post. Return the document object to the plugin render/save endpoints."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:225 #: assets/js/editor.js:1950
+msgid "Redo"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:366 #: assets/js/editor.js:6984
+msgid "Redo (Ctrl/Cmd+Shift+Z)"
+msgstr ""
+
+#: includes/api/class-layout-schema.php:297
+msgid "Registered element type."
+msgstr ""
+
+#: includes/elements/class-element.php:176
+msgid "Relative"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:131 #: assets/js/editor.js:1293 #: assets/js/editor.js:1417 #: assets/js/editor.js:2522 #: assets/js/editor.js:7485 #: assets/js/editor.js:9778 #: assets/js/editor.js:9784 #: assets/js/editor.js:10636
+msgid "Remove"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:67 #: assets/js/editor.js:584 #: assets/js/editor.js:594
+msgid "Remove from Favorites"
+msgstr ""
+
+#: includes/elements/class-element.php:211 #: includes/elements/class-element.php:224
+msgid "Repeat"
+msgstr ""
+
+#: includes/elements/class-element.php:224
+msgid "Repeat X"
+msgstr ""
+
+#: includes/elements/class-element.php:224
+msgid "Repeat Y"
+msgstr ""
+
+#: includes/api/class-layout-schema.php:311
+msgid "Repeater item _id this child belongs to when the parent sets slots=true."
+msgstr ""
+
+#: includes/elements/class-form.php:25
+msgid "Required"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:75 #: assets/js/editor.js:592
+msgid "Reset style"
+msgstr ""
+
+#: includes/elements/class-element.php:197 #: includes/elements/class-element.php:198 #: includes/elements/class-element.php:199 #: includes/elements/class-element.php:200 #: includes/elements/class-element.php:201 #: includes/elements/class-element.php:202 #: includes/elements/class-element.php:203 #: includes/i18n/class-i18n.php:249 #: assets/js/editor.js:2388
+msgid "Responsive"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:55 #: assets/js/editor.js:478
+msgid "responsive"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:59 #: assets/js/editor.js:520
+msgid "Responsive Breakpoints"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:358 #: assets/js/editor.js:4262
+msgid "Responsive Grid"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:176 #: assets/js/editor.js:1592
+msgid "Restore"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:215 #: assets/js/editor.js:1845
+msgid "Return to the WordPress dashboard."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:175 #: assets/js/editor.js:1592
+msgid "Revision %s"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:174 #: assets/js/editor.js:1592
+msgid "Revision History"
+msgstr ""
+
+#: includes/document/class-document-manager.php:166
+msgid "Revision not found."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:445
+msgid "Revoke token"
+msgstr ""
+
+#: includes/elements/class-accordion.php:34 #: includes/elements/class-element.php:108 #: includes/elements/class-element.php:109 #: includes/elements/class-element.php:178 #: includes/elements/class-image.php:31 #: includes/elements/class-nested_accordion.php:37 #: includes/i18n/class-i18n.php:114 #: assets/js/editor.js:1218 #: assets/js/editor.js:1433 #: assets/js/editor.js:2365
+msgid "Right"
+msgstr ""
+
+#: includes/elements/class-carousel.php:42
+msgid "Right to Left"
+msgstr ""
+
+#: includes/elements/class-element.php:239
+msgid "Role"
+msgstr ""
+
+#: includes/elements/class-element.php:110 #: includes/elements/class-icon.php:23
+msgid "Rotate"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:444
+msgid "Rotate token"
+msgstr ""
+
+#: includes/elements/class-element.php:214
+msgid "rotate(2deg)"
+msgstr ""
+
+#: includes/elements/class-icon.php:13 #: includes/elements/class-social.php:47
+msgid "Rounded"
+msgstr ""
+
+#: includes/elements/class-container.php:26
+msgid "Row"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:361 #: assets/js/editor.js:4262
+msgid "Row Definition"
+msgstr ""
+
+#: includes/elements/class-container.php:32 #: includes/elements/class-social.php:59 #: includes/i18n/class-i18n.php:294 #: assets/js/editor.js:2586
+msgid "Row Gap"
+msgstr ""
+
+#: includes/elements/class-container.php:26
+msgid "Row Reverse"
+msgstr ""
+
+#: includes/elements/class-element.php:195 #: includes/i18n/class-i18n.php:267 #: assets/js/editor.js:2561 #: assets/js/editor.js:4251
+msgid "Row Span"
+msgstr ""
+
+#: includes/elements/class-element.php:194 #: includes/i18n/class-i18n.php:266 #: assets/js/editor.js:2561 #: assets/js/editor.js:4251
+msgid "Row Start"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:289 #: assets/js/editor.js:2586 #: assets/js/editor.js:4259 #: assets/js/editor.js:4262
+msgid "Row Tracks"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:349 #: assets/js/editor.js:4259
+msgid "Row Tracks (fallback)"
+msgstr ""
+
+#: includes/elements/class-element.php:241
+msgid "Rules are scoped to this element. Use \"selector\" to target the wrapper."
+msgstr ""
+
+#: includes/elements/class-element.php:107
+msgid "Same Window"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:65 #: assets/js/editor.js:523 #: assets/js/editor.js:811 #: assets/js/editor.js:818 #: assets/js/editor.js:1607 #: assets/js/editor.js:1950 #: assets/js/editor.js:6984 #: assets/js/editor.js:7153
+msgid "Save"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:369 #: assets/js/editor.js:6984
+msgid "Save (Ctrl/Cmd+S)"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:582
+msgid "Save an allowed Azure endpoint before testing."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:578
+msgid "Save an API key before testing."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:79 #: assets/js/editor.js:598
+msgid "Save as Component"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:78 #: assets/js/editor.js:597
+msgid "Save as Template"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:233 #: assets/js/editor.js:1950 #: assets/js/editor.js:3685 #: assets/js/editor.js:3837 #: assets/js/editor.js:6949
+msgid "Save Component"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:432
+msgid "Save connection"
+msgstr ""
+
+#: includes/settings/class-global-settings.php:146
+msgid "Save Design System"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:93 #: assets/js/editor.js:816
+msgid "Save failed"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:219 #: assets/js/editor.js:1871
+msgid "Save Notes"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:220 #: assets/js/editor.js:1882
+msgid "Save Preferences"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:231 #: assets/js/editor.js:1950 #: assets/js/editor.js:6949
+msgid "Save Template"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:94 #: assets/js/editor.js:826
+msgid "Save this page first, then preview it."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:168 #: assets/js/editor.js:1553
+msgid "Save variables"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:92 #: assets/js/editor.js:809 #: assets/js/editor.js:1941 #: assets/js/editor.js:6979
+msgid "Saved"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:91 #: assets/js/editor.js:807
+msgid "Saved %s"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:90
+msgid "Saving\\\\u2026"
+msgstr ""
+
+#: assets/js/editor.js:796
+msgid "Saving\\u2026"
+msgstr ""
+
+#: includes/elements/class-element.php:205
+msgid "Scale"
+msgstr ""
+
+#: includes/elements/class-image.php:30
+msgid "Scale Down"
+msgstr ""
+
+#: includes/elements/class-element.php:217
+msgid "Screen"
+msgstr ""
+
+#: includes/elements/class-container.php:34 #: includes/elements/class-element.php:182
+msgid "Scroll"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:237 #: assets/js/editor.js:1950
+msgid "Search elements"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:236
+msgid "Search elements\\\\u2026"
+msgstr ""
+
+#: assets/js/editor.js:1950
+msgid "Search elements\\u2026"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:154
+msgid "Search icons\\\\u2026"
+msgstr ""
+
+#: assets/js/editor.js:1500 #: assets/js/editor.js:3057
+msgid "Search icons\\u2026"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:180
+msgid "Search pages and posts\\\\u2026"
+msgstr ""
+
+#: assets/js/editor.js:1599
+msgid "Search pages and posts\\u2026"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:159
+msgid "Search templates\\\\u2026"
+msgstr ""
+
+#: assets/js/editor.js:1519
+msgid "Search templates\\u2026"
+msgstr ""
+
+#: includes/design/class-variables.php:47 #: includes/i18n/class-i18n.php:388 #: includes/settings/class-global-settings.php:108 #: assets/js/editor.js:9459
+msgid "Secondary"
+msgstr ""
+
+#: includes/elements/class-icon.php:20
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/design/class-variables.php:76 #: includes/i18n/class-i18n.php:392 #: assets/js/editor.js:9484
+msgid "Secondary Headline"
+msgstr ""
+
+#: includes/elements/class-container.php:35
+msgid "section"
+msgstr ""
+
+#: includes/elements/class-form.php:24
+msgid "Select"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:147 #: assets/js/editor.js:1446 #: assets/js/editor.js:2573 #: assets/js/editor.js:8817 #: assets/js/editor.js:8981
+msgid "Select an element to edit its settings."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:97 #: assets/js/editor.js:990
+msgid "Select collection images"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:198 #: assets/js/editor.js:1783 #: assets/js/editor.js:7554
+msgid "Select Gallery Images"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:196 #: assets/js/editor.js:1766 #: assets/js/editor.js:7508 #: assets/js/editor.js:10702
+msgid "Select Image"
+msgstr ""
+
+#: includes/elements/class-form.php:51
+msgid "Select…"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:449
+msgid "Send it as Authorization: Bearer <token>. Store it in the agent, not in page content."
+msgstr ""
+
+#: includes/elements/class-form.php:13 #: includes/elements/class-form.php:62
+msgid "Send Message"
+msgstr ""
+
+#: includes/elements/class-form.php:32
+msgid "Send To"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:241 #: assets/js/editor.js:1950
+msgid "Settings"
+msgstr ""
+
+#: includes/elements/class-image.php:39
+msgid "Shadow"
+msgstr ""
+
+#: includes/elements/class-icon.php:13 #: includes/elements/class-social.php:47 #: includes/i18n/class-i18n.php:381 #: assets/js/editor.js:8774
+msgid "Shape"
+msgstr ""
+
+#: includes/elements/class-container.php:20
+msgid "Shape Dividers"
+msgstr ""
+
+#: includes/elements/class-shortcode.php:4
+msgid "Shortcode"
+msgstr ""
+
+#: includes/elements/class-element.php:110
+msgid "Shrink"
+msgstr ""
+
+#: includes/elements/class-sidebar.php:5
+msgid "Sidebar"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:106 #: assets/js/editor.js:1218
+msgid "Single"
+msgstr ""
+
+#: includes/elements/class-element.php:110
+msgid "Sink"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:226 #: assets/js/editor.js:1950 #: assets/js/editor.js:6949
+msgid "Site"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:461 #: assets/js/editor.js:10666
+msgid "Site Background"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:448 #: assets/js/editor.js:10651
+msgid "Site Identity"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:179 #: assets/js/editor.js:1599
+msgid "Site Navigation"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:200 #: assets/js/editor.js:1838 #: assets/js/editor.js:9775
+msgid "Site Settings"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:449 #: assets/js/editor.js:10652
+msgid "Site Title"
+msgstr ""
+
+#: includes/elements/class-button.php:16 #: includes/elements/class-carousel.php:46 #: includes/elements/class-carousel.php:48 #: includes/elements/class-heading.php:16 #: includes/elements/class-heading.php:21 #: includes/elements/class-icon.php:18 #: includes/elements/class-social.php:56 #: includes/elements/class-testimonial.php:33 #: includes/i18n/class-i18n.php:413 #: assets/js/editor.js:9784 #: assets/js/editor.js:10247
+msgid "Size"
+msgstr ""
+
+#: includes/elements/class-element.php:110
+msgid "Skew"
+msgstr ""
+
+#: includes/elements/class-carousel.php:40
+msgid "Slide"
+msgstr ""
+
+#: includes/elements/class-element.php:205
+msgid "Slide Up"
+msgstr ""
+
+#: includes/elements/class-carousel.php:14
+msgid "Slides"
+msgstr ""
+
+#: includes/elements/class-carousel.php:28
+msgid "Slides to Scroll"
+msgstr ""
+
+#: includes/elements/class-carousel.php:27
+msgid "Slides to Show"
+msgstr ""
+
+#: includes/elements/class-button.php:16 #: includes/elements/class-heading.php:16
+msgid "Small"
+msgstr ""
+
+#: includes/elements/class-social.php:8 #: includes/elements/class-social.php:36
+msgid "Social Icons"
+msgstr ""
+
+#: includes/elements/class-element.php:217
+msgid "Soft Light"
+msgstr ""
+
+#: includes/elements/class-button.php:31 #: includes/elements/class-element.php:229 #: includes/elements/class-icon_list.php:41 #: includes/elements/class-image.php:36
+msgid "Solid"
+msgstr ""
+
+#: includes/elements/class-soundcloud.php:5
+msgid "SoundCloud"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:320 #: assets/js/editor.js:2835
+msgid "Source"
+msgstr ""
+
+#: includes/elements/class-container.php:28
+msgid "Space Around"
+msgstr ""
+
+#: includes/elements/class-accordion.php:49 #: includes/elements/class-container.php:28 #: includes/elements/class-icon_list.php:34 #: includes/elements/class-nested_accordion.php:52
+msgid "Space Between"
+msgstr ""
+
+#: includes/elements/class-container.php:28
+msgid "Space Evenly"
+msgstr ""
+
+#: includes/elements/class-element.php:237
+msgid "Space separated class names from the Global Classes manager."
+msgstr ""
+
+#: includes/elements/class-spacer.php:4
+msgid "Spacer"
+msgstr ""
+
+#: includes/elements/class-accordion.php:46 #: includes/elements/class-carousel.php:44 #: includes/elements/class-element.php:173 #: includes/elements/class-element.php:174 #: includes/elements/class-nested_accordion.php:49 #: includes/i18n/class-i18n.php:244 #: assets/js/editor.js:2388 #: assets/js/editor.js:2566
+msgid "Spacing"
+msgstr ""
+
+#: includes/elements/class-element.php:111
+msgid "span"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:136 #: assets/js/editor.js:1437
+msgid "Spread"
+msgstr ""
+
+#: includes/elements/class-icon.php:13 #: includes/elements/class-social.php:47
+msgid "Square"
+msgstr ""
+
+#: includes/api/class-layout-schema.php:293
+msgid "Stable node id. Keep existing ids."
+msgstr ""
+
+#: includes/elements/class-form.php:34 #: includes/elements/class-icon.php:12
+msgid "Stacked"
+msgstr ""
+
+#: includes/elements/class-star_rating.php:5
+msgid "Star Rating"
+msgstr ""
+
+#: includes/elements/class-container.php:28 #: includes/elements/class-container.php:29 #: includes/elements/class-element.php:190 #: includes/elements/class-element.php:191 #: includes/elements/class-image.php:15 #: includes/elements/class-nested_tabs.php:35 #: includes/elements/class-tabs.php:28 #: includes/i18n/class-i18n.php:118 #: assets/js/editor.js:1218
+msgid "Start"
+msgstr ""
+
+#: includes/elements/class-element.php:176
+msgid "Sticky"
+msgstr ""
+
+#: includes/elements/class-container.php:29 #: includes/elements/class-element.php:190 #: includes/elements/class-element.php:191 #: includes/elements/class-image.php:15 #: includes/elements/class-nested_tabs.php:35 #: includes/elements/class-tabs.php:28 #: includes/i18n/class-i18n.php:120 #: assets/js/editor.js:1218
+msgid "Stretch"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:80 #: assets/js/editor.js:599 #: assets/js/editor.js:606
+msgid "Structure"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:367 #: assets/js/editor.js:6984
+msgid "Structure / Navigator (Ctrl/Cmd+I)"
+msgstr ""
+
+#: includes/elements/class-element.php:246 #: includes/elements/class-icon_list.php:41 #: includes/i18n/class-i18n.php:276 #: assets/js/editor.js:2567 #: assets/js/editor.js:8730 #: assets/js/editor.js:9784 #: assets/js/editor.js:10252
+msgid "Style"
+msgstr ""
+
+#: includes/elements/class-form.php:30
+msgid "Submit Button"
+msgstr ""
+
+#: includes/elements/class-button.php:15
+msgid "Success"
+msgstr ""
+
+#: includes/elements/class-form.php:31
+msgid "Success Message"
+msgstr ""
+
+#: includes/elements/class-image.php:25
+msgid "Sync"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:403 #: assets/js/editor.js:9766
+msgid "System Colors"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:407 #: assets/js/editor.js:9772
+msgid "System Typography"
+msgstr ""
+
+#: includes/elements/class-nested_tabs.php:68
+msgid "Tab %d"
+msgstr ""
+
+#: includes/settings/class-breakpoints.php:47
+msgid "Tablet"
+msgstr ""
+
+#: includes/settings/class-breakpoints.php:56
+msgid "Tablet Extra"
+msgstr ""
+
+#: includes/elements/class-nested_tabs.php:25 #: includes/elements/class-nested_tabs.php:27 #: includes/elements/class-tabs.php:5 #: includes/elements/class-tabs.php:17 #: includes/elements/class-tabs.php:19
+msgid "Tabs"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:450 #: assets/js/editor.js:10653
+msgid "Tagline"
+msgstr ""
+
+#: includes/elements/class-form.php:24
+msgid "Tel"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:158 #: assets/js/editor.js:1519 #: assets/js/editor.js:2906
+msgid "Template Library"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:84 #: assets/js/editor.js:697 #: assets/js/editor.js:1750
+msgid "Template name:"
+msgstr ""
+
+#: includes/api/class-rest.php:24 #: includes/api/class-rest.php:66
+msgid "Template not found"
+msgstr ""
+
+#: includes/api/class-rest.php:65
+msgid "Template title required"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:195 #: assets/js/editor.js:1752
+msgid "Template type: page, section or block"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:232 #: assets/js/editor.js:1950 #: assets/js/editor.js:6949
+msgid "Templates"
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:433
+msgid "Test connection"
+msgstr ""
+
+#: includes/elements/class-testimonial.php:5
+msgid "Testimonial"
+msgstr ""
+
+#: includes/elements/class-testimonial.php:16
+msgid "Testimonials"
+msgstr ""
+
+#: includes/design/class-variables.php:48 #: includes/elements/class-button.php:12 #: includes/elements/class-element.php:219 #: includes/elements/class-element.php:227 #: includes/elements/class-form.php:24 #: includes/elements/class-icon_list.php:24 #: includes/elements/class-price_table.php:24 #: includes/i18n/class-i18n.php:389 #: includes/settings/class-global-settings.php:108 #: assets/js/editor.js:9460
+msgid "Text"
+msgstr ""
+
+#: includes/elements/class-button.php:24 #: includes/elements/class-heading.php:18 #: includes/elements/class-icon_list.php:38 #: includes/elements/class-testimonial.php:32 #: includes/elements/class-tinymce_text_editor.php:37 #: includes/i18n/class-i18n.php:415 #: assets/js/editor.js:10254 #: assets/js/editor.js:10265
+msgid "Text Color"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:310 #: assets/js/editor.js:2825 #: assets/js/editor.js:3098
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/elements/class-text.php:5
+msgid "Text Editor"
+msgstr ""
+
+#: includes/elements/class-icon_list.php:39
+msgid "Text Hover"
+msgstr ""
+
+#: includes/elements/class-icon_list.php:40
+msgid "Text Indent"
+msgstr ""
+
+#: includes/elements/class-text_path.php:3
+msgid "Text Path"
+msgstr ""
+
+#: includes/elements/class-element.php:251 #: includes/elements/class-heading.php:25 #: includes/i18n/class-i18n.php:311 #: assets/js/editor.js:2825 #: assets/js/editor.js:3098 #: assets/js/editor.js:8730
+msgid "Text Shadow"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:309 #: assets/js/editor.js:2825 #: assets/js/editor.js:3098
+msgid "Text Transform"
+msgstr ""
+
+#: includes/elements/class-form.php:24
+msgid "Textarea"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:476 #: assets/js/frontend.js:258
+msgid "Thank you."
+msgstr ""
+
+#: includes/api/class-rest.php:48 #: includes/elements/class-form.php:13
+msgid "Thanks! Your message has been sent."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:471
+msgid "That API key format is not recognized."
+msgstr ""
+
+#: includes/api/class-rest.php:48
+msgid "The form could not be sent."
+msgstr ""
+
+#: includes/api/class-mcp-host.php:41
+msgid "The Canvasly MCP host is disabled."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:590
+msgid "The provider endpoint is not allowed."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:618
+msgid "The provider rejected the API key."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:621
+msgid "The provider returned HTTP "
+msgstr ""
+
+#: includes/i18n/class-i18n.php:202 #: assets/js/editor.js:1839 #: assets/js/editor.js:1867
+msgid "Theme Builder"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:412 #: assets/js/editor.js:9775
+msgid "Theme Style"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:401 #: assets/js/editor.js:9755
+msgid "Theme Style sets site-wide defaults for body text, headings, links, buttons, images and form fields. Individual elements can still override them."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:475
+msgid "This server cannot encrypt API keys (OpenSSL or Sodium is required)."
+msgstr ""
+
+#: includes/api/class-mcp-host.php:51
+msgid "This token cannot read or modify layout documents."
+msgstr ""
+
+#: includes/elements/class-video.php:104
+msgid "This video URL could not be recognised"
+msgstr ""
+
+#: includes/elements/class-carousel.php:26 #: includes/elements/class-testimonial.php:28
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/elements/class-tinymce_text_editor.php:7
+msgid "TinyMCE Text Editor"
+msgstr ""
+
+#: includes/elements/class-accordion.php:22 #: includes/elements/class-accordion.php:27 #: includes/elements/class-carousel.php:33 #: includes/elements/class-form.php:18 #: includes/elements/class-heading.php:10 #: includes/elements/class-heading.php:12 #: includes/elements/class-nested_accordion.php:26 #: includes/elements/class-nested_accordion.php:31 #: includes/elements/class-nested_tabs.php:25 #: includes/elements/class-nested_tabs.php:30 #: includes/elements/class-price_table.php:18 #: includes/elements/class-tabs.php:17 #: …and 7 more
+msgid "Title"
+msgstr ""
+
+#: includes/elements/class-accordion.php:31 #: includes/elements/class-nested_accordion.php:34 #: includes/elements/class-nested_tabs.php:36 #: includes/elements/class-tabs.php:29
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:453 #: assets/js/editor.js:10656
+msgid "Title, tagline, logo and favicon are stored in WordPress site settings."
+msgstr ""
+
+#: includes/elements/class-toggle.php:5
+msgid "Toggle"
+msgstr ""
+
+#: includes/api/class-mcp-host.php:54
+msgid "Too many MCP requests. Try again in a minute."
+msgstr ""
+
+#: includes/elements/class-element.php:177 #: includes/elements/class-image.php:31 #: includes/elements/class-testimonial.php:29 #: includes/i18n/class-i18n.php:121 #: assets/js/editor.js:1218 #: assets/js/editor.js:1433 #: assets/js/editor.js:2365
+msgid "Top"
+msgstr ""
+
+#: includes/elements/class-image.php:31
+msgid "Top Left"
+msgstr ""
+
+#: includes/elements/class-image.php:31
+msgid "Top Right"
+msgstr ""
+
+#: includes/elements/class-container.php:53
+msgid "Top Shape"
+msgstr ""
+
+#: includes/elements/class-container.php:54
+msgid "Top Shape Color"
+msgstr ""
+
+#: includes/elements/class-container.php:55
+msgid "Top Shape Height"
+msgstr ""
+
+#: includes/elements/class-container.php:56
+msgid "Top Shape Width"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:350 #: assets/js/editor.js:4260
+msgid "Track Sizing"
+msgstr ""
+
+#: includes/elements/class-icon_list.php:30
+msgid "Traditional"
+msgstr ""
+
+#: includes/elements/class-element.php:247 #: includes/i18n/class-i18n.php:277 #: assets/js/editor.js:2567 #: assets/js/editor.js:2569 #: assets/js/editor.js:2825 #: assets/js/editor.js:3098 #: assets/js/editor.js:8730 #: assets/js/editor.js:8774 #: assets/js/editor.js:9784 #: assets/js/editor.js:10251
+msgid "Transform"
+msgstr ""
+
+#: includes/elements/class-element.php:215 #: includes/i18n/class-i18n.php:430 #: assets/js/editor.js:10317 #: assets/js/editor.js:10319
+msgid "Transition"
+msgstr ""
+
+#: includes/elements/class-element.php:218
+msgid "Triangle"
+msgstr ""
+
+#: includes/elements/class-element.php:206 #: includes/i18n/class-i18n.php:255 #: assets/js/editor.js:2388
+msgid "Trigger"
+msgstr ""
+
+#: includes/elements/class-form.php:34
+msgid "Two Columns"
+msgstr ""
+
+#: includes/elements/class-button.php:15 #: includes/elements/class-form.php:24
+msgid "Type"
+msgstr ""
+
+#: includes/elements/class-element.php:243 #: includes/elements/class-element.php:244 #: includes/elements/class-element.php:245 #: includes/elements/class-element.php:246 #: includes/elements/class-element.php:247 #: includes/elements/class-element.php:248 #: includes/elements/class-element.php:249 #: includes/elements/class-element.php:250 #: includes/elements/class-element.php:251 #: includes/elements/class-heading.php:10 #: includes/elements/class-tinymce_text_editor.php:26 #: includes/i18n/class-i18n.php:272 #: …and 4 more
+msgid "Typography"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:306 #: assets/js/editor.js:2824 #: assets/js/editor.js:3098
+msgid "Typography & Design"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:456 #: assets/js/editor.js:10660
+msgid "UI Color"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:477 #: assets/js/frontend.js:258
+msgid "Unable to send the form right now."
+msgstr ""
+
+#: includes/elements/class-element.php:248
+msgid "Underline"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:224 #: assets/js/editor.js:1950
+msgid "Undo"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:365 #: assets/js/editor.js:6984
+msgid "Undo (Ctrl/Cmd+Z)"
+msgstr ""
+
+#: includes/settings/class-global-settings.php:111
+msgid "Unlimited custom colors and typography presets are managed from Site Settings in the Canvasly editor."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:398 #: assets/js/editor.js:9641 #: assets/js/editor.js:10388 #: assets/js/editor.js:10759
+msgid "Unlink"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:223 #: assets/js/editor.js:1941 #: assets/js/editor.js:6979
+msgid "Unsaved"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:363 #: assets/js/editor.js:6974
+msgid "Untitled Page"
+msgstr ""
+
+#: includes/elements/class-element.php:247
+msgid "Uppercase"
+msgstr ""
+
+#: includes/elements/class-form.php:24 #: includes/elements/class-social.php:42
+msgid "URL"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:197 #: assets/js/editor.js:1766 #: assets/js/editor.js:7508 #: assets/js/editor.js:10702
+msgid "Use Image"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:98 #: assets/js/editor.js:990 #: assets/js/editor.js:1783 #: assets/js/editor.js:7554
+msgid "Use Images"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:443 #: assets/js/editor.js:10645
+msgid "Used when a page does not set its own content width."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:206 #: assets/js/editor.js:1841 #: assets/js/editor.js:1882
+msgid "User Preferences"
+msgstr ""
+
+#: includes/elements/class-login.php:3
+msgid "Username"
+msgstr ""
+
+#: includes/design/class-icon-library.php:20
+msgid "Valid SVG icon required."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:230 #: includes/settings/class-global-settings.php:143 #: assets/js/editor.js:1950 #: assets/js/editor.js:2877 #: assets/js/editor.js:3873 #: assets/js/editor.js:4015 #: assets/js/editor.js:6949
+msgid "Variables"
+msgstr ""
+
+#: includes/elements/class-nested_tabs.php:34 #: includes/elements/class-tabs.php:27
+msgid "Vertical"
+msgstr ""
+
+#: includes/elements/class-image.php:15
+msgid "Vertical Align"
+msgstr ""
+
+#: includes/elements/class-video.php:9
+msgid "Video"
+msgstr ""
+
+#: includes/elements/class-container.php:49
+msgid "Video End"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:475 #: assets/js/frontend.js:118
+msgid "Video player"
+msgstr ""
+
+#: includes/elements/class-container.php:50
+msgid "Video Poster"
+msgstr ""
+
+#: includes/elements/class-container.php:48
+msgid "Video Start"
+msgstr ""
+
+#: includes/elements/class-icon.php:12
+msgid "View"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:211 #: assets/js/editor.js:1843
+msgid "View help and editor guidance."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:209 #: assets/js/editor.js:1842
+msgid "View Canvasly keyboard shortcuts."
+msgstr ""
+
+#: includes/elements/class-element.php:210
+msgid "Viewport Threshold"
+msgstr ""
+
+#: includes/elements/class-element.php:185
+msgid "Visibility"
+msgstr ""
+
+#: includes/elements/class-container.php:34 #: includes/elements/class-element.php:182 #: includes/elements/class-element.php:185
+msgid "Visible"
+msgstr ""
+
+#: includes/elements/class-button.php:15
+msgid "Warning"
+msgstr ""
+
+#: includes/elements/class-element.php:245 #: includes/elements/class-heading.php:22 #: includes/elements/class-icon_list.php:42 #: includes/elements/class-tinymce_text_editor.php:40 #: includes/i18n/class-i18n.php:275 #: assets/js/editor.js:2567 #: assets/js/editor.js:8730 #: assets/js/editor.js:9784 #: assets/js/editor.js:10248
+msgid "Weight"
+msgstr ""
+
+#: includes/settings/class-breakpoints.php:83
+msgid "Widescreen"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:444 #: assets/js/editor.js:10646
+msgid "Widgets Space"
+msgstr ""
+
+#: includes/elements/class-accordion.php:48 #: includes/elements/class-container.php:38 #: includes/elements/class-element.php:41 #: includes/elements/class-element.php:168 #: includes/elements/class-icon_list.php:44 #: includes/elements/class-image.php:27 #: includes/elements/class-nested_accordion.php:51 #: includes/elements/class-tinymce_text_editor.php:32
+msgid "Width"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:62 #: includes/settings/class-global-settings.php:119 #: assets/js/editor.js:522
+msgid "Width (px)"
+msgstr ""
+
+#: includes/elements/class-element.php:110
+msgid "Wobble"
+msgstr ""
+
+#: includes/editor/class-editor.php:131
+msgid "WordPress could not create the draft."
+msgstr ""
+
+#: includes/api/class-rest.php:37
+msgid "WordPress could not create the page."
+msgstr ""
+
+#: includes/elements/class-wordpress.php:10
+msgid "WordPress Widget"
+msgstr ""
+
+#: includes/elements/class-container.php:27
+msgid "Wrap"
+msgstr ""
+
+#: includes/elements/class-container.php:27
+msgid "Wrap Reverse"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:133 #: assets/js/editor.js:1437
+msgid "X"
+msgstr ""
+
+#: includes/elements/class-heading.php:16
+msgid "XL"
+msgstr ""
+
+#: includes/elements/class-heading.php:16
+msgid "XXL"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:134 #: assets/js/editor.js:1437
+msgid "Y"
+msgstr ""
+
+#: includes/bootstrap/class-plugin.php:64
+msgid "You can edit this content with the visual builder."
+msgstr ""
+
+#: includes/api/class-rest.php:37
+msgid "You cannot create pages."
+msgstr ""
+
+#: includes/document/class-document-manager.php:65 #: includes/document/class-document-manager.php:166
+msgid "You cannot edit this document."
+msgstr ""
+
+#: includes/api/class-capabilities.php:57 #: includes/api/class-capabilities.php:77
+msgid "You cannot edit this layout document."
+msgstr ""
+
+#: includes/design/class-components.php:10
+msgid "You cannot manage components."
+msgstr ""
+
+#: includes/design/class-favorites.php:7
+msgid "You cannot manage favorites."
+msgstr ""
+
+#: includes/api/class-mcp-host.php:309
+msgid "You cannot read this layout document."
+msgstr ""
+
+#: includes/editor/class-editor.php:135
+msgid "You do not have permission to edit this content."
+msgstr ""
+
+#: includes/settings/class-ai-connection.php:368
+msgid "You do not have permission to manage AI connections."
+msgstr ""
+
+#: includes/api/class-capabilities.php:37 #: includes/api/class-capabilities.php:70
+msgid "You do not have permission to modify layouts."
+msgstr ""
+
+#: includes/editor/class-editor.php:124
+msgid "You do not have permission to use Canvasly."
+msgstr ""
+
+#: includes/i18n/class-i18n.php:221 #: assets/js/editor.js:1902
+msgid "You have unsaved changes. Leave the editor?"
+msgstr ""
+
+#: includes/elements/class-heading.php:8
+msgid "Your Heading"
+msgstr ""
+
+#: includes/elements/class-element.php:181
+msgid "Z-Index"
+msgstr ""
+
+#: includes/i18n/class-i18n.php:248 #: assets/js/editor.js:2388
+msgid "Z-index"
+msgstr ""
+
+#: includes/elements/class-element.php:110
+msgid "Zoom"
+msgstr ""
+
+#: includes/i18n/class-i18n.php
+msgid "Bold"
+msgstr ""
+
+#: includes/i18n/class-i18n.php
+msgid "Align left"
+msgstr ""
+
+#: includes/i18n/class-i18n.php
+msgid "Align center"
+msgstr ""
+
+#: includes/i18n/class-i18n.php
+msgid "Align right"
+msgstr ""
+
+#: includes/i18n/class-i18n.php
+msgid "Clear formatting"
+msgstr ""
+
+#: includes/i18n/class-i18n.php
+msgid "Text formatting"
+msgstr ""
+
+#: includes/i18n/class-i18n.php
+msgid "Apply"
+msgstr ""
+
+#: includes/i18n/class-i18n.php
+msgid "Remove link"
+msgstr ""
+

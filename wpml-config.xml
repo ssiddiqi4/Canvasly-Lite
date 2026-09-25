@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy-once">_lb_document_data</custom-field>
+		<custom-field action="copy-once">_lb_document_version</custom-field>
+		<custom-field action="copy-once">_lb_document_updated</custom-field>
+		<custom-field action="copy-once">_lb_template_data</custom-field>
+		<custom-field action="copy-once">_lb_template_type</custom-field>
+		<custom-field action="copy-once">_lb_template_key</custom-field>
+		<custom-field action="copy-once">_lb_component_data</custom-field>
+		<custom-field action="copy-once">_lb_component_key</custom-field>
+		<custom-field action="copy-once">_lb_component_version</custom-field>
+		<custom-field action="copy-once">_lb_component_exposed</custom-field>
+		<custom-field action="ignore">_lb_css_cache</custom-field>
+		<custom-field action="ignore">_lb_css_hash</custom-field>
+		<custom-field action="ignore">_lb_autosave_data</custom-field>
+		<custom-field action="ignore">_lb_asset_version</custom-field>
+		<custom-field action="ignore">_lb_frag_gen</custom-field>
+		<custom-field action="ignore">_lb_document_revisions</custom-field>
+		<custom-field action="ignore">_edit_lock</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">lb_template</custom-type>
+	</custom-types>
+	<shortcodes>
+		<shortcode>
+			<tag>canvasly_lite_template</tag>
+			<attributes>
+				<attribute encoding="int">id</attribute>
+			</attributes>
+		</shortcode>
+	</shortcodes>
+</wpml-config>

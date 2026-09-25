@@ -1,0 +1,53 @@
+/* Canvasly Lite Template Gutenberg block editor chrome. */
+.lb-block-template {
+	min-height: 48px;
+}
+.lb-block-template-placeholder {
+	margin: 0;
+	padding: 18px;
+	border: 1px dashed #c3c4c7;
+	border-radius: 4px;
+	background: #f6f7f7;
+	color: #50575e;
+}
+.lb-block-template-placeholder p {
+	margin: 0 0 12px;
+}
+.lb-block-template-preview {
+	margin: 0;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	background: #fff;
+	overflow: hidden;
+}
+.lb-block-template-preview img {
+	display: block;
+	width: 100%;
+	max-height: 220px;
+	object-fit: cover;
+	background: #f0f0f1;
+}
+.lb-block-template-preview figcaption {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	padding: 10px 12px;
+	font-size: 13px;
+}
+.lb-block-template-preview strong {
+	font-size: 14px;
+}
+.lb-block-template-preview small,
+.lb-block-template-preview code {
+	color: #646970;
+}
+.lb-block-template-live {
+	margin-top: 8px;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	overflow: hidden;
+	background: #fff;
+}
+.lb-block-template-live .lb-template-embed {
+	padding: 8px;
+}

@@ -1,0 +1,11 @@
+.column-lb_thumb{width:72px}
+.column-lb_type{width:120px}
+.column-lb_shortcode{width:280px}
+.lb-template-thumb-fallback{
+	display:inline-flex;align-items:center;justify-content:center;
+	width:60px;height:40px;background:#f0f0f1;color:#646970;
+	font-size:10px;text-transform:uppercase;border-radius:3px
+}
+.lb-template-type{display:inline-block}
+.lb-template-shortcode{font-size:11px;user-select:all}
+.column-lb_thumb img{width:60px;height:40px;object-fit:cover;border-radius:3px;background:#f0f0f1}

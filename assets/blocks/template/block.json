@@ -1,0 +1,24 @@
+{
+  "apiVersion": 3,
+  "name": "canvasly-lite/template",
+  "title": "Canvasly Lite Template",
+  "category": "canvasly-lite",
+  "icon": "layout",
+  "description": "Insert a saved Canvasly Lite template.",
+  "keywords": [ "template", "saved", "section", "library", "canvasly-lite" ],
+  "textdomain": "canvasly-lite",
+  "attributes": {
+    "id": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [ "wide", "full" ],
+    "anchor": true,
+    "className": true
+  },
+  "editorScript": "canvasly-lite-template-block",
+  "editorStyle": "canvasly-lite-template-block-editor"
+}

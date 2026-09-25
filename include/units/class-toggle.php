@@ -1,0 +1,18 @@
+<?php
+namespace CanvaslyLite\Units; if(!defined('ABSPATH')) exit;
+/** Toggle: the Accordion structure where every panel can be opened independently. */
+class Toggle extends Accordion {
+ public function type(){return 'toggle';} public function title(){return __('Toggle', 'canvasly-lite');} public function icon(){return '⊕';} public function category(){return 'basic';}
+ public function keywords(){return ['toggle','collapse','expand','panel','accordion'];}
+ protected function single_open(){return false;}
+ protected function root_class(){return 'lb-toggle';}
+ public function defaults(){
+  $d=parent::defaults();
+  $d['items']=[
+   ['_id'=>'tog1','title'=>'Toggle Item 1','content'=>'Add the content for the first toggle here.'],
+   ['_id'=>'tog2','title'=>'Toggle Item 2','content'=>'Add the content for the second toggle here.'],
+  ];
+  $d['icon']='plus'; $d['active_icon']='minus'; $d['space_between']=10; $d['first_open']=false;
+  return $d;
+ }
+}

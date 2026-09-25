@@ -1,0 +1,3 @@
+<?php
+namespace CanvaslyLite\Units; if(!defined('ABSPATH')) exit;
+class ReadMore extends Unit { public function type(){return 'read_more';} public function title(){return __('Read More', 'canvasly-lite');} public function icon(){return '↗';} public function uses_button(){return true;} public function defaults(){return ['text'=>'Read More','url'=>'#','target'=>'_self'];} public function controls(){return ['text'=>'text','url'=>'url','target'=>'select'];} public function render($s,$children=''){return '<a class="lb-read-more" href="'.esc_attr(self::link_href($s['url']??'#')).'" target="'.esc_attr($s['target']??'_self').'">'.esc_html($s['text']??'Read More').'</a>';}}

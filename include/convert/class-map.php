@@ -352,6 +352,14 @@ class Map {
 				'type'     => 'shortcode',
 				'settings' => array( 'shortcode' => 'shortcode' ),
 			),
+			// WPForms' own Elementor widget (registered by the WPForms
+			// plugin) stores only a numeric form_id, not a shortcode
+			// string — the shortcode itself is built in
+			// Converter::enrich_widget().
+			'wpforms'         => array(
+				'type'     => 'shortcode',
+				'settings' => array(),
+			),
 			'sidebar'         => array(
 				'type'     => 'sidebar',
 				'settings' => array( 'sidebar' => 'sidebar' ),
@@ -607,7 +615,7 @@ class Map {
 				'settings' => array( 'html' => 'html' ),
 			),
 			'wp-widget-generic' => array(
-				'type'     => 'wordpress',
+				'type'     => 'wordpress_widget',
 				'settings' => array(
 					'wp' => array( 'widget_options', 'json' ),
 				),

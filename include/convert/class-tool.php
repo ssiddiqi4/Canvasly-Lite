@@ -52,6 +52,68 @@ class Tool {
 	}
 
 	/**
+	 * Duplicate a post so the Elementor→Canvasly conversion can be written
+	 * to a brand-new draft rather than in place. Copies core post fields
+	 * plus every `_elementor_*` meta key (so the converter finds the same
+	 * source data on the copy) and `_wp_page_template`. Never touches the
+	 * original post or its meta.
+	 *
+	 * @param int $post_id
+	 * @return int New post ID, or 0 on failure.
+	 */
+	private static function duplicate_as_copy( $post_id ) {
+		$post_id = absint( $post_id );
+		$src     = $post_id ? get_post( $post_id ) : null;
+		if ( ! $src ) {
+			return 0;
+		}
+		$title  = ( $src->post_title !== '' ? $src->post_title : __( '(no title)', 'canvasly-lite' ) );
+		$title .= ' - ' . __( 'Canvasly', 'canvasly-lite' );
+		$new_id = wp_insert_post(
+			array(
+				'post_type'      => $src->post_type,
+				// Always a draft: this is a copy for review, not a second
+				// live page, whatever the source page's own status is.
+				'post_status'    => 'draft',
+				'post_title'     => $title,
+				'post_content'   => $src->post_content,
+				'post_excerpt'   => $src->post_excerpt,
+				'post_author'    => $src->post_author,
+				'post_parent'    => $src->post_parent,
+				'menu_order'     => $src->menu_order,
+				'comment_status' => $src->comment_status,
+				'ping_status'    => $src->ping_status,
+			),
+			true
+		);
+		if ( is_wp_error( $new_id ) || ! $new_id ) {
+			return 0;
+		}
+		foreach ( get_post_meta( $post_id ) as $key => $values ) {
+			if ( strpos( (string) $key, '_elementor_' ) !== 0 ) {
+				continue;
+			}
+			// Some plugins (Elementor itself included, if still active
+			// during migration) write their own default meta the instant
+			// wp_insert_post() creates the new draft. add_post_meta()
+			// would stack our copied value as a second row behind that
+			// default instead of replacing it, and a later single-value
+			// read (get_post_meta(..., true)) would silently return the
+			// stale default rather than the real copied data. Clear first
+			// so the copy ends up with exactly the source's values.
+			delete_post_meta( $new_id, $key );
+			foreach ( (array) $values as $v ) {
+				add_post_meta( $new_id, $key, maybe_unserialize( $v ) );
+			}
+		}
+		$tpl = get_post_meta( $post_id, '_wp_page_template', true );
+		if ( $tpl !== '' ) {
+			update_post_meta( $new_id, '_wp_page_template', $tpl );
+		}
+		return (int) $new_id;
+	}
+
+	/**
 	 * @param string $namespace
 	 */
 	public static function routes( $namespace ) {
@@ -132,17 +194,37 @@ class Tool {
 			wp_die( esc_html__( 'Only administrators can convert layout data.', 'canvasly-lite' ) );
 		}
 		check_admin_referer( 'lb_convert' );
-		$dry   = ( sanitize_key( wp_unslash( $_POST['mode'] ?? 'preview' ) ) !== 'run' );
-		$ids   = self::ids_from( isset( $_POST['ids'] ) ? array_map( 'absint', (array) wp_unslash( $_POST['ids'] ) ) : array() );
-		$force = ! empty( $_POST['force'] );
+		$dry       = ( sanitize_key( wp_unslash( $_POST['mode'] ?? 'preview' ) ) !== 'run' );
+		$ids       = self::ids_from( isset( $_POST['ids'] ) ? array_map( 'absint', (array) wp_unslash( $_POST['ids'] ) ) : array() );
+		$force     = ! empty( $_POST['force'] );
+		$save_copy = ! empty( $_POST['save_as_copy'] );
 		if ( ! empty( $_POST['all'] ) && ! $ids ) {
 			foreach ( Converter::candidates() as $row ) {
 				$ids[] = absint( $row['id'] ?? 0 );
 			}
 			$ids = array_values( array_filter( $ids ) );
 		}
+		// Duplicating is itself a write, so it only ever happens on a real
+		// commit — a dry run must stay side-effect free and always previews
+		// against the original page.
+		$copy_failed = 0;
+		if ( $save_copy && ! $dry ) {
+			$copy_ids = array();
+			foreach ( $ids as $id ) {
+				$new_id = self::duplicate_as_copy( $id );
+				if ( $new_id ) {
+					$copy_ids[] = $new_id;
+				} else {
+					++$copy_failed;
+				}
+			}
+			$ids = $copy_ids;
+		}
 		$conv   = new Converter();
 		$report = $conv->convert_posts( $ids, array( 'dry_run' => $dry, 'force' => $force ) );
+		if ( $copy_failed ) {
+			$report['copy_failed'] = $copy_failed;
+		}
 		$ttl    = defined( 'MINUTE_IN_SECONDS' ) ? 10 * MINUTE_IN_SECONDS : 600;
 		set_transient( self::REPORT . '_' . get_current_user_id(), $report, $ttl );
 		$count = (int) ( $report['converted'] ?? 0 );
@@ -156,14 +238,22 @@ class Tool {
 				)
 			);
 		} else {
-			self::store_notice(
-				empty( $report['errors'] ) ? 'success' : 'error',
-				sprintf(
-					/* translators: %d: number of converted posts */
-					_n( 'Converted %d item.', 'Converted %d items.', $count, 'canvasly-lite' ),
-					$count
-				)
+			$message = sprintf(
+				/* translators: %d: number of converted posts */
+				_n( 'Converted %d item.', 'Converted %d items.', $count, 'canvasly-lite' ),
+				$count
 			);
+			if ( $save_copy ) {
+				$message .= ' ' . __( 'Saved as new draft copies (original pages left untouched).', 'canvasly-lite' );
+			}
+			if ( $copy_failed ) {
+				$message .= ' ' . sprintf(
+					/* translators: %d: number of posts that could not be duplicated */
+					_n( '%d item could not be duplicated and was skipped.', '%d items could not be duplicated and were skipped.', $copy_failed, 'canvasly-lite' ),
+					$copy_failed
+				);
+			}
+			self::store_notice( empty( $report['errors'] ) && ! $copy_failed ? 'success' : 'error', $message );
 		}
 		wp_safe_redirect( self::tools_url() );
 		exit;
@@ -260,7 +350,7 @@ class Tool {
 				$meta .= ' · ' . __( 'already has a Canvasly document', 'canvasly-lite' );
 			}
 			echo '<label style="display:flex;align-items:center;gap:6px;margin:4px 0;">';
-			echo '<input type="checkbox" name="ids[]" value="' . esc_attr( (string) ( $p['id'] ?? 0 ) ) . '" checked> ';
+			echo '<input type="checkbox" name="ids[]" value="' . esc_attr( (string) ( $p['id'] ?? 0 ) ) . '"> ';
 			echo self::elementor_badge( 'sm', $is_elementor );
 			echo esc_html( $label . ' (' . $meta . ')' );
 			echo '</label>';
@@ -269,7 +359,9 @@ class Tool {
 		echo '<p class="description">' . esc_html__( 'Library items are saved as Canvasly templates. Pages and posts that already have a Canvasly document are skipped unless you force overwrite.', 'canvasly-lite' ) . '</p>';
 		echo '</td></tr>';
 		echo '<tr><th>' . esc_html__( 'Options', 'canvasly-lite' ) . '</th><td>';
-		echo '<label><input type="checkbox" name="force" value="1"> ' . esc_html__( 'Overwrite existing Canvasly documents', 'canvasly-lite' ) . '</label>';
+		echo '<label style="display:block;"><input type="checkbox" name="force" value="1"> ' . esc_html__( 'Overwrite existing Canvasly documents', 'canvasly-lite' ) . '</label>';
+		echo '<label style="display:block;margin-top:6px;"><input type="checkbox" name="save_as_copy" value="1"> ' . esc_html__( 'Save as a new copy instead of converting in place (title gets " - Canvasly" appended; original page and its Elementor data are left completely untouched)', 'canvasly-lite' ) . '</label>';
+		echo '<p class="description" style="margin-top:4px;">' . esc_html__( 'The copy is created as a draft. This option only applies to Commit — a Dry Run always previews against the original page, since previews never write anything.', 'canvasly-lite' ) . '</p>';
 		echo '</td></tr></tbody></table>';
 		echo '<p>';
 		echo '<button class="button" type="submit" name="mode" value="preview">' . esc_html__( 'Dry Run', 'canvasly-lite' ) . '</button> ';
@@ -340,6 +432,7 @@ class Tool {
 			echo '<th>' . esc_html__( 'Status', 'canvasly-lite' ) . '</th>';
 			echo '<th>' . esc_html__( 'Mapped', 'canvasly-lite' ) . '</th>';
 			echo '<th>' . esc_html__( 'Unmapped', 'canvasly-lite' ) . '</th>';
+			echo '<th>' . esc_html__( 'Note', 'canvasly-lite' ) . '</th>';
 			echo '</tr></thead><tbody>';
 			foreach ( $items as $row ) {
 				$un = (array) ( $row['unmapped'] ?? array() );
@@ -353,6 +446,7 @@ class Tool {
 				echo '<td>' . esc_html( (string) ( $row['status'] ?? '' ) ) . '</td>';
 				echo '<td>' . esc_html( (string) (int) ( $row['mapped'] ?? 0 ) ) . '</td>';
 				echo '<td>' . esc_html( $ul ? implode( ', ', $ul ) : '—' ) . '</td>';
+				echo '<td>' . esc_html( (string) ( $row['error'] ?? ( $row['reason'] ?? '' ) ) ) . '</td>';
 				echo '</tr>';
 			}
 			echo '</tbody></table>';

@@ -73,6 +73,21 @@ class Converter {
 			}
 		}
 		$d = $try( stripslashes( $raw ) );
+		if ( $d !== null ) {
+			return $d;
+		}
+		// Some import/export and migration paths leave `_elementor_data`
+		// HTML-entity-encoded (e.g. "&#8221;" instead of a literal quote),
+		// which breaks json_decode even though the meta value itself is
+		// clearly non-empty. Try decoding entities as a last resort before
+		// giving up.
+		if ( function_exists( 'wp_specialchars_decode' ) ) {
+			$d = $try( wp_specialchars_decode( $raw, ENT_QUOTES ) );
+			if ( $d !== null ) {
+				return $d;
+			}
+		}
+		$d = $try( html_entity_decode( $raw, ENT_QUOTES ) );
 		return is_array( $d ) ? $d : array();
 	}
 
@@ -86,8 +101,14 @@ class Converter {
 	public function convert_tree( $units, $page_settings = array() ) {
 		$this->reset_report();
 		$list = is_array( $units ) ? $units : self::decode( $units );
-		if ( isset( $list['units'] ) && is_array( $list['units'] ) && ! isset( $list[0] ) ) {
-			$list = $list['units'];
+		if ( is_array( $list ) && ! isset( $list[0] ) ) {
+			// Elementor's own top-level data is always a plain numeric list;
+			// this only fires for some other wrapped source format.
+			if ( isset( $list['elements'] ) && is_array( $list['elements'] ) ) {
+				$list = $list['elements'];
+			} elseif ( isset( $list['units'] ) && is_array( $list['units'] ) ) {
+				$list = $list['units'];
+			}
 		}
 		$root = array();
 		foreach ( $list as $el ) {
@@ -130,11 +151,30 @@ class Converter {
 		if ( $kind === 'widget' ) {
 			return $this->convert_widget( $el );
 		}
-		if ( ! empty( $el['units'] ) && is_array( $el['units'] ) ) {
+		if ( $this->child_elements( $el ) ) {
 			return $this->convert_layout( $el, Map::LAYOUT_CONTAINER );
 		}
 		$this->note_unmapped( $kind !== '' ? $kind : 'unknown' );
 		return $this->placeholder_html( $kind !== '' ? $kind : 'unknown', $el );
+	}
+
+	/**
+	 * A node's children. Elementor's own JSON tree always uses the key
+	 * "elements" at every level (section > elements > column > elements >
+	 * widget), so that is checked first; "units" is accepted as a
+	 * fallback for any other source format that already uses that name.
+	 *
+	 * @param array $el
+	 * @return array
+	 */
+	private function child_elements( $el ) {
+		if ( isset( $el['elements'] ) && is_array( $el['elements'] ) ) {
+			return $el['elements'];
+		}
+		if ( isset( $el['units'] ) && is_array( $el['units'] ) ) {
+			return $el['units'];
+		}
+		return array();
 	}
 
 	/**
@@ -154,7 +194,7 @@ class Converter {
 		$this->shapes_from( $src, $settings );
 
 		$children = array();
-		foreach ( (array) ( $el['units'] ?? array() ) as $child ) {
+		foreach ( $this->child_elements( $el ) as $child ) {
 			$node = $this->convert_node( $child );
 			if ( $node ) {
 				$children[] = $node;
@@ -315,7 +355,7 @@ class Converter {
 		$this->enrich_widget( Map::normalize_type( $src_type ), $src, $settings, $el );
 
 		$children = array();
-		foreach ( (array) ( $el['units'] ?? array() ) as $i => $child ) {
+		foreach ( $this->child_elements( $el ) as $i => $child ) {
 			$node = $this->convert_node( $child );
 			if ( ! $node ) {
 				continue;
@@ -435,6 +475,15 @@ class Converter {
 						return array( 'title' => (string) ( $row['tab_title'] ?? ( $row['title'] ?? '' ) ) );
 					}
 				);
+				break;
+			case 'wpforms':
+				// The WPForms Elementor widget only stores a numeric
+				// form_id; build the equivalent shortcode so the
+				// generic Shortcode Unit can render it via do_shortcode().
+				$form_id = absint( $src['form_id'] ?? 0 );
+				if ( $form_id ) {
+					$settings['shortcode'] = '[wpforms id="' . $form_id . '"]';
+				}
 				break;
 			case 'nested-accordion':
 			case 'nested-toggle':
@@ -1242,6 +1291,70 @@ class Converter {
 	}
 
 	/**
+	 * Short, safe-to-display diagnosis of why source_data() came back empty,
+	 * for surfacing in the conversion report instead of a bare "error".
+	 *
+	 * @param int $post_id
+	 * @return string
+	 */
+	public static function source_diagnostic( $post_id ) {
+		$raw = get_post_meta( absint( $post_id ), self::SOURCE_META, true );
+		if ( is_array( $raw ) ) {
+			return empty( $raw ) ? __( 'Stored value is an empty array.', 'canvasly-lite' ) : '';
+		}
+		if ( ! is_string( $raw ) || $raw === '' ) {
+			return __( 'No _elementor_data meta value is stored on this post (empty or missing).', 'canvasly-lite' );
+		}
+		$len     = function_exists( 'mb_strlen' ) ? mb_strlen( $raw, '8bit' ) : strlen( $raw );
+		$excerpt = substr( $raw, 0, 60 );
+		if ( function_exists( 'mb_convert_encoding' ) ) {
+			$excerpt = @mb_convert_encoding( $excerpt, 'UTF-8', 'UTF-8' );
+		}
+		$excerpt  = preg_replace( '/[\x00-\x1F\x7F]/', '?', (string) $excerpt );
+		$direct   = json_decode( $raw, true );
+		$json_err = function_exists( 'json_last_error_msg' ) ? json_last_error_msg() : '';
+		$parsed   = ( json_last_error() === JSON_ERROR_NONE );
+		if ( $parsed && is_array( $direct ) && empty( $direct ) ) {
+			return sprintf(
+				/* translators: 1: byte length, 2: first characters of the stored value */
+				__( 'Stored value (%1$d bytes) parsed fine as JSON but decoded to an empty layout. First characters: %2$s', 'canvasly-lite' ),
+				$len,
+				$excerpt
+			);
+		}
+		if ( ! $parsed ) {
+			// One more attempt after removing WP-style slashing, purely to
+			// tell "genuinely malformed" apart from "just needed unslashing
+			// but was still empty after that" in the message we show.
+			if ( function_exists( 'wp_unslash' ) ) {
+				json_decode( wp_unslash( $raw ), true );
+				if ( json_last_error() === JSON_ERROR_NONE ) {
+					return sprintf(
+						/* translators: 1: byte length, 2: first characters of the stored value */
+						__( 'Stored value (%1$d bytes) parsed fine as JSON after removing slashes, but decoded to an empty layout. First characters: %2$s', 'canvasly-lite' ),
+						$len,
+						$excerpt
+					);
+				}
+			}
+			return sprintf(
+				/* translators: 1: byte length, 2: JSON parser error, 3: first characters of the stored value */
+				__( 'Stored value is %1$d bytes but failed to parse as JSON (%2$s). First characters: %3$s', 'canvasly-lite' ),
+				$len,
+				$json_err,
+				$excerpt
+			);
+		}
+		return sprintf(
+			/* translators: 1: byte length, 2: JSON parser error, 3: first characters of the stored value */
+			__( 'Stored value is %1$d bytes but failed to parse as JSON (%2$s). First characters: %3$s', 'canvasly-lite' ),
+			$len,
+			$json_err,
+			$excerpt
+		);
+	}
+
+	/**
 	 * Posts that still have source builder JSON.
 	 *
 	 * @param array $args
@@ -1313,7 +1426,13 @@ class Converter {
 		}
 		$source = self::source_data( $post_id );
 		if ( ! $source ) {
-			return new \WP_Error( 'no_source', __( 'No convertible layout data was found on this post.', 'canvasly-lite' ) );
+			$why = self::source_diagnostic( $post_id );
+			return new \WP_Error(
+				'no_source',
+				$why !== ''
+					? __( 'No convertible layout data was found on this post.', 'canvasly-lite' ) . ' ' . $why
+					: __( 'No convertible layout data was found on this post.', 'canvasly-lite' )
+			);
 		}
 		$lb_key = class_exists( DocumentManager::class ) ? DocumentManager::META : '_lb_document_data';
 		$has_lb = (string) get_post_meta( $post_id, $lb_key, true ) !== ''
@@ -1475,6 +1594,7 @@ class Converter {
 				'title'       => $one['title'] ?? '',
 				'type'        => $one['type'] ?? '',
 				'status'      => $status,
+				'reason'      => $one['reason'] ?? '',
 				'template_id' => $one['template_id'] ?? 0,
 				'mapped'      => (int) ( $rep['mapped'] ?? 0 ),
 				'nodes'       => (int) ( $rep['nodes'] ?? 0 ),
